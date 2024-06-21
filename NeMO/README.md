@@ -1,3 +1,5 @@
-# fishexplorer
+# NeMO Fiji Plugin
 
-https://fishexplorer.zib.de/
+Neuro Mask Organizer (NeMO)
+
+Detailed instructions will be available soon.
