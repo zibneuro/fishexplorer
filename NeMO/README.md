@@ -3,5 +3,10 @@
 Neuro Mask Organizer (NeMO) is a Fiji plug-in for segmentation of anatomical masks. Fiji is an open source image processing software that is widely used in biology. The NeMO software specifically enables users to manually label anatomical masks, compare them to registered/predicted masks and correct the overlap between the masks. The software also allows users to combine manual labeling with a deep learning approach. The training dataset can be generated based on different parameters, including classification strategy (binary/multi-class), split strategy (train/test vs. train/validate/test), and training on whole images or patches. 
 
 Installation instructions
+
 Download the “NeMO.jar” from the github repository and copy it to the Fiji “plugins” directory (encircled red in the images below).
 <img src="images/NeMO1.png"/>
+<img src="images/NeMO2.png"/>
+
+Open the Fiji platform and the NeMO plugin will be enlisted in the Fiji “plugins” tab (encircled red in the image below). 
+<img src="images/NeMO3.png"/>
