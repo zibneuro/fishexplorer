@@ -9,4 +9,9 @@ Download the “NeMO.jar” from the github repository and copy it to the Fiji �
 <img src="images/NeMO2.png"/>
 
 Open the Fiji platform and the NeMO plugin will be enlisted in the Fiji “plugins” tab (encircled red in the image below). 
+
 <img src="images/NeMO3.png"/>
+
+Download the test project and unzip it. Click the “NeMO” button and select the project file from the unzipped test project. The project will be loaded and the NeMO window will appear on the screen as shown below.
+
+<img src="images/NeMO4.png"/>
