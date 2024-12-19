@@ -4,4 +4,4 @@ Neuro Mask Organizer (NeMO) is a Fiji plug-in for segmentation of anatomical mas
 
 Installation instructions
 Download the “NeMO.jar” from the github repository and copy it to the Fiji “plugins” directory (encircled red in the images below).
-<img src="images/NEMO1.png"/>
+<img src="images/NeMO1.png"/>
