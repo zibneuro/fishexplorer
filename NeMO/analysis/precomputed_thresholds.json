@@ -1,0 +1,26 @@
+[{
+    "name":"OXT_AND_DUP_newOrder_all_MECE",
+    "lower_threshold":[9,9],
+    "upper_threshold":[14, 52]
+},
+{
+    "name":"gaba_AND_DUP_newOrder_all_MECE",
+    "lower_threshold":[10,3],
+    "upper_threshold":[14, 21]
+},
+{
+    "name":"vglut_AND_DUP_newOrder_all_MECE",
+    "lower_threshold":[9,7],
+    "upper_threshold":[20, 61]
+},
+{
+    "name":"5HT_AND_DUP_newOrder_all_MECE",
+    "lower_threshold":[9,8],
+    "upper_threshold":[24, 52]
+},
+{
+    "name":"TH_AND_DUP_newOrder_all_MECE",
+    "lower_threshold":[17,10],
+    "upper_threshold":[33, 70]
+}
+]
