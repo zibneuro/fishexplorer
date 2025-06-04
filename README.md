@@ -1,3 +1,3 @@
 # fishexplorer
 
-https://fishexplorer.zib.de/
+https://fishexplorer.zib.de/sandbox/
