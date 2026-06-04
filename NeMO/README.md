@@ -24,7 +24,26 @@ Open the Fiji platform and the NeMO plugin will be enlisted in the Fiji “plugi
 
 <img src="images/NeMO3.png"/>
 
-Download the demo project and unzip it. Click the “NeMO” button and select the project file from the unzipped test project. The project will be loaded and the NeMO window will appear on the screen as shown below.
+Download the demo project("medakasegmentation.zip") and unzip it. If you want to annotate your custom data, please download "regionssegmentation.zip" and unzip it. The project structure is shown in the image below.
+
+<img src="images/NeMO_PROJECT.png"/>
+
+The data folder contains several subfolders, each serving a specific purpose:
+
+1. **history** – Stores historical versions of the masks.
+2. **interslicetiff** – Contains TIFF files generated through morphological contour interpolation.
+3. **models** – Stores regions predicted by the segmentation models.
+4. **regions_backup** – Contains automatically generated backups of expert-annotated regions.
+5. **regions** – Stores expert-annotated regions in a compressed format.
+6. **slices** – Contains the reference image stack used for annotation.
+7. **tiff – Stores the regions annotated by experts in TIFF format.
+
+Most of these folders are automatically managed by NeMO and are used to organize annotation data, intermediate results, model predictions, and backups.
+
+
+<img src="images/NeMO_PROJECTFILE.png"/>
+
+Click the “NeMO” button and select the project file from the unzipped test project. The project will be loaded and the NeMO window will appear on the screen as shown below.
 
 <img src="images/NeMO4.png"/>
 
@@ -33,5 +52,3 @@ Download the demo project and unzip it. Click the “NeMO” button and select t
 2. conda install pip
 3. pip install itkwasm-morphological-contour-interpolation
 
-<img src="images/NeMO_PROJECT.png"/>
-<img src="images/NeMO_PROJECTFILE.png"/>
