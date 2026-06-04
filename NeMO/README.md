@@ -1,6 +1,6 @@
 # NeMO Fiji Plugin
 
-**Neuro Mask Organizer (NeMO)** is a Fiji plug-in for anatomical mask segmentation. Fiji is a widely used open-source image-processing platform in the biological sciences. NeMO enables users to manually annotate anatomical masks, compare them with registered or predicted masks, and correct overlaps between masks. The software also supports hybrid workflows that combine manual annotation with automated segmentation. It currently provides two automated approaches:.   
+**Neuro Mask Organizer (NeMO)** is a Fiji plug-in for anatomical mask segmentation. **Fiji** is a widely used open-source image-processing platform in the biological sciences. NeMO enables users to manually annotate anatomical masks, compare them with registered or predicted masks, and correct overlaps between masks. The software also supports hybrid workflows that combine manual annotation with automated segmentation. It currently provides two automated approaches:.   
 1. **Morphological contour interpolation**, which propagates annotations between labeled slices.
 2. **Deep-learning–based segmentation**, which predicts masks from image data using trained models.
 
@@ -27,3 +27,11 @@ Open the Fiji platform and the NeMO plugin will be enlisted in the Fiji “plugi
 Download the demo project and unzip it. Click the “NeMO” button and select the project file from the unzipped test project. The project will be loaded and the NeMO window will appear on the screen as shown below.
 
 <img src="images/NeMO4.png"/>
+
+
+1. conda create --name interslice
+2. conda install pip
+3. pip install itkwasm-morphological-contour-interpolation
+
+<img src="images/NeMO_PROJECT.png"/>
+<img src="images/NeMO_PROJECTFILE.png"/>
