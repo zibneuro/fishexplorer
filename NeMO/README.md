@@ -28,6 +28,8 @@ Download the demo project("medakasegmentation.zip") and unzip it. If you want to
 
 <img src="images/NeMO_PROJECT.png"/>
 
+---
+
 The data folder contains several subfolders, each serving a specific purpose:
 
 1. **history** – Stores historical versions of the masks.
@@ -40,7 +42,7 @@ The data folder contains several subfolders, each serving a specific purpose:
 
 Most of these folders are automatically managed by NeMO and are used to organize annotation data, intermediate results, model predictions, and backups.
 
-
+---
 <img src="images/NeMO_PROJECTFILE.png"/>
 
 Click the “NeMO” button and select the project file from the unzipped test project. The project will be loaded and the NeMO window will appear on the screen as shown below.
