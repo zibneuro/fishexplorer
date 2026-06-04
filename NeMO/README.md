@@ -57,7 +57,9 @@ To use the **Morphological Contour Interpolation** feature, users must first cre
 2. conda install pip
 3. pip install itkwasm-morphological-contour-interpolation
 
-Instructions for setting up and using the image registration and deep-learning–based segmentation modules will be provided in their respective tutorials.
+Please also update the path of **pythonfile** related to Morphological Contour Interpolation in the project JSON file.
+
+Instructions for setting up and using the **image registration** and **deep-learning–based segmentation** modules will be provided in their respective tutorials.
 
 ---
 Open the Fiji platform and the NeMO plugin will be enlisted in the Fiji “plugins” tab (encircled red in the image below). 
@@ -66,7 +68,13 @@ Open the Fiji platform and the NeMO plugin will be enlisted in the Fiji “plugi
 
 ---
 
-Click the “NeMO” button and select the project file from the unzipped test project. The project will be loaded and the NeMO window will appear on the screen as shown below.
+Click the “NeMO” button and select the project JSON file (e.g., **medakasegmentation.json**) (shown in the image below). 
+<img src="images/NeMO_SELECTJSON.png"/>
+
+The project will be loaded and the NeMO window will appear on the screen as shown below.
 
 <img src="images/NeMO4.png"/>
 
+If you want to add new region, please click "add (encircled red in the image below).
+
+<img src="images/NeMO4.png"/>
