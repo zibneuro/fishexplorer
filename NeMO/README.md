@@ -75,6 +75,20 @@ The project will be loaded and the NeMO window will appear on the screen as show
 
 <img src="images/NeMO4.png"/>
 
-If you want to add new region, please click "add (encircled red in the image below).
+If you would like to add a new region, click the Add button (highlighted by the red rectangle in the image above). The following window will then appear on the screen.
+Enter the name of the region, including the .zip extension (e.g., forebrain.zip), and click Open to create the new region.
 
-<img src="images/NeMO4.png"/>
+<img src="images/NeMO_ADDREGION.png"/>
+
+---
+
+To annotate a region, first select the Polygon ROI tool from the Fiji toolbar. Draw the ROI on the current slice and click the **add roi** to save the annotation for that slice.
+Begin by annotating the first and last slices of the region. Then, annotate every 5–8 slices in between, depending on the complexity and variability of the structure.
+
+These annotations can later be used for interpolation or as training data for automated segmentation methods. 
+
+Finally, click "ISI Selected Region" in the Others panel. This will start the Morphological Contour Interpolation process for the currently selected region in a separate thread.
+
+The interpolation will run in the background, allowing you to continue working within Fiji. Once the process is complete, a confirmation message will be displayed in the Fiji Log window. 
+
+You can then review the generated interpolated tiff in the **interslicetiff** folder and corresponding compressed rois in the **models** folder.
