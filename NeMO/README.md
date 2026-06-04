@@ -27,7 +27,7 @@ Download the “NeMO.jar” from the github repository and copy it to the Fiji �
 
 **Project structure**
 
-Download the demo project("medakasegmentation.zip") and unzip it. If you want to annotate your custom data, please download "regionssegmentation.zip" and unzip it. The project structure is shown in the image below.
+Download the demo project("demo/medakasegmentation.zip") and unzip it. If you want to annotate your custom data, please download "regionssegmentation.zip" and unzip it. The project structure is shown in the image below.
 
 <img src="images/NeMO_PROJECT.png"/>
 
