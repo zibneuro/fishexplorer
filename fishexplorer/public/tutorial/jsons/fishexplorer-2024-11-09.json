@@ -1,0 +1,54 @@
+{
+    "id": "52371893-3de9-4b89-a819-419bf2297c8f",
+    "name": "zebrafish_52371893-3de9-4b89-a819-419bf2297c8f.json",
+    "selectedAge": "6dpf",
+    "selectedSpecie": "zebrafish",
+    "selectedModality": "LM",
+    "datasets": {
+        "channelItems": []
+    },
+    "regions": [
+        {
+            "id": "5edce6d2657acbcc5086379c",
+            "color": "#f28e2b",
+            "alpha": 0.3
+        },
+        {
+            "id": "5edce6d2657acbcc508637de",
+            "color": "#8ebdb1",
+            "alpha": 0.36
+        }
+    ],
+    "morphologies": [
+        {
+            "id": "5ec3ac63b08330dac152498d",
+            "color": "#3b7b4a",
+            "alpha": 0.7
+        },
+        {
+            "id": "5ec3ac63b08330dac152498e",
+            "color": "#215a31",
+            "alpha": 0.7
+        },
+        {
+            "id": "5ec3ac63b08330dac1524990",
+            "color": "#6882f2",
+            "alpha": 0.7
+        },
+        {
+            "id": "5ec3ac63b08330dac1524991",
+            "color": "#690b66",
+            "alpha": 0.7
+        },
+        {
+            "id": "5ec3ac63b08330dac15249a1",
+            "color": "#554e7b",
+            "alpha": 0.7
+        },
+        {
+            "id": "66b4bfd7389cbf6f7a119ab1",
+            "color": "#0d3eca",
+            "alpha": 0.7
+        }
+    ]
+}

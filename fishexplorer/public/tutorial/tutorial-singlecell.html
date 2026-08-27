@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<title>FishExplorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="../scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fishexplorertutorial.css">
+<style>
+    /* Stackoverflow preview fix, please ignore */
+    .navbar-nav {
+      flex-direction: row;
+    }
+    
+    .nav-link {
+      padding-right: .5rem !important;
+      padding-left: .5rem !important;
+    }
+    
+    /* Fixes dropdown menus placed on the right side */
+    .ml-auto .dropdown-menu {
+      left: auto !important;
+      right: 0px;
+    }
+  </style>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+      <a href="../../" class="navbar-brand"  style=" text-decoration: none;"><span class="logo_fish1">FISH</span><span
+        class="logo_fish2">Explorer</span></a>
+     
+      <div class="collapse navbar-collapse" style="float: right;" id="myNavbar">
+        <ul class="navbar-nav ml-auto">
+          
+        </ul>
+      </div>
+      <ul class="nav justify-content-end">
+
+        <li class="nav-item">
+          <a href="http://www.zib.de/impressum" target="_blank" style="color:#0B2E59" class="nav-link">Imprint</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.engertlab.org/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+              class="logo_engerts3">ENGERT</span> <span class="logo_engerts4">Lab</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.zib.de/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+              class="logo_engerts3">ZIB</span></a>
+        </li>
+      </ul>
+  </nav>
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block sidebar">
+        <div class="sidebar-sticky" style="margin-top: 20%">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+              <a  class="list-group-item list-group-item-action" href="general.html">
+                <span data-feather="home"></span>
+                Getting Started
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="image-registration.html">
+                Image Registration
+              </a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group-item  list-group-item-action" href="tutorial-hier.html">
+                 Hierarchial Exploration
+                </a>
+            </li>
+            <li class="list-group-item ">
+              <a class="list-group-item list-group-item-action" href="tutorial.html">
+                Visualize 2D Regions<span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-3d.html">
+                Visualize 3D Regions
+              </a>
+            </li>
+          
+            <li class="list-group-item">
+                <a class="list-group-item list-group-item-action" href="tutorial-mece.html">
+                  <span data-feather="layers"></span>
+                  Visualize MECE Hierarchy
+                </a>
+              </li>
+              <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="tutorial-multi.html">
+                      Multi-channel stacks
+                  </a>
+                </li>
+          </ul>
+
+
+        </div>
+      </nav>
+
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+          style="margin-top: 1%">
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <h1 class="h2"> Visualize Single Cells & Clusters</h1>
+              <!-- Image header -->
+
+              <div class="panel-body">
+                <ul class="list-unstyled">
+                  <li> 
+                    In order to understand brain-wide neuronal dynamics of zebrafish,
+                     <a href="https://www.sciencedirect.com/science/article/abs/pii/S0896627319303915">Kuns et al</a>
+                     built a cellular-resolution atlas of the zebrafish brain and reconstructed over 2,000 individually GFP-labeled neurons.
+                    Moreover, they perform hierarchical clustering on these 2,000 neurons and end up with 18 distinct cell clusters or "cell types"
+                    On the otherhand, Simone et al also reconstructed few direction selective neurons in the hindbrain of zebrafish. Our platfrom
+                    consist of both the datasets. User can even load their custom cell morphologies in "swc" format. 
+                    This tutorial provides a step-by-step tutorial for the visualization of retinal ganglion cell (RGC) cluster in <i>Kuns et al</i> dataset.
+                      <br>
+                      <br>
+                      Follow the steps below to display and visualize single-cell clusters:
+                  </li>
+                    <br>
+                  <li> When FishExplorer is running, a default window like the one shown below appears on the screen.
+                    <br> 
+                    <div style="text-align:center; margin-top: 10px;">
+                    <img src="images/single-main.png" class="img-fluid">
+                    </div>
+                    <hr></li>
+
+                  <li>Click the link "Single Cells" (encircled red in the image above), Single cell viewer will appear on screen
+                     (as shown in the image below). 
+                      The default selected dataset is <i>Kuns et al</i>, list of predefined clusters for the selected dataset will appears 
+                      on the screen (encircled red in the image below)
+                      <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/singlecell-2.png" class="img-fluid">
+                    </div><hr>
+                  </li>
+
+                  <li>
+                      Imagine now that you want to display e.g. retinal ganglion cell (RGC) cluster
+                      In order to do that, select the cluster-11.(encircled red in the image below)
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/singlecell-3.png" class="img-fluid">
+                    </div><hr>
+                  </li>
+                  <li>The list of neurons 
+                    will appear on screen (encircled green in the image below). 
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/singlecell-4.png" class="img-fluid">
+                    </div>
+                  </li>
+                  <hr>
+                  <li> Next, you can visualize all the neurons by clicking the checkall button
+                    (encircled red in the image above).The color is randomly assigned to neurons. 
+                    One can even load the individual neuron by 
+                    selecting the checkbox in front of the neuron name.
+                    <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/singlecell-5.png" class="img-fluid">
+                      </div>
+                  </li>
+                  <hr>
+                  <li>Next, visualization of all the 18 distinct clusters as shown below.
+
+                      <div style="text-align:center; margin-top: 10px;">
+                          <img src="images/cluster1-4.png" class="img-fluid">
+                        </div>
+                        <div style="text-align:center; margin-top: 10px;">
+                            <img src="images/cluster5-8.png" class="img-fluid">
+                        </div>
+                        <div style="text-align:center; margin-top: 10px;">
+                            <img src="images/cluster9-12.png" class="img-fluid">
+                        </div>
+                        <div style="text-align:center; margin-top: 10px;">
+                            <img src="images/cluster13-16.png" class="img-fluid">
+                        </div>
+                        <div style="text-align:center; margin-top: 10px;">
+                            <img src="images/cluster17-18.png" class="img-fluid">
+                        </div>
+                   
+                   
+                  </li>
+                  <hr>
+                  <li>Next, Imagine now you want to load your custom neuron file. Click the swc file button (encircled red in the image below). 
+                    This functionality  is client side i.e neuron data temporary stored in user's browser memory. We are not storing
+                    any custom neuron files on our server.
+
+                    <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/swc-1.png" class="img-fluid">
+                      </div>
+                  </li>
+                  <hr>
+                  <li> Next, load the file using file browser as shown in the image below.
+                      <div style="text-align:center; margin-top: 10px;">
+                          <img src="images/swc-2.png" class="img-fluid">
+                        </div>
+                  </li>
+                  <hr>
+                  <li> Next, the neuron will appear on the screen and the neuron will be listed in uploaded
+                    datasets (encircled red in the image below) .
+                      <div style="text-align:center; margin-top: 10px;">
+                          <img src="images/swc-3.png" class="img-fluid">
+                        </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      </main>
+    </div>
+  </div>
+
+</body>
+
+</html>

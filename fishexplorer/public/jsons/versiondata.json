@@ -1,0 +1,21 @@
+[
+    {"id":"1", "region": "Forebrain",  "color": "#D54590", "name": "Diencephalon","date":"2015-06-10", "creater":["Owen Randlett"], "comment":"First segmentation of forebrain"},
+    {"id":"2", "region": "Forebrain",  "color": "#e15759", "name": "Forebrain", "date":"2019-06-11","creater":["Owen Randlett"], "comment":"Non overlapping forebrain"},
+    {"id":"3", "region": "Midbrain",  "color": "#8A890E", "name": "Mesencephalon", "date":"2015-06-11", "creater":["Owen Randlett"],  "comment":"First segmentation of forebrain"},
+    {"id":"4", "region": "Midbrain",  "color": "#955B9E", "name": "Midbrain", "date":"2019-06-11", "creater":["Owen Randlett"],  "comment":"Non overlapping midbrain and name changed from Mesencephalon to Midbrain"},
+    {"id":"5", "region": "Arborization Field 1", "color": "#52ce13", "name": "Diencephalon-Retinal Arborization Field 1(AF1,Approximate Location)", "date":"2015-06-10", "creater":["Clemens","Owen Randlett"], "comment":"First segmentation of AF1"},
+    {"id":"6", "region": "Arborization Field 1", "color": "#9bba70", "name": "Retinal Arborization Field 1(AF1,Approximate Location)", "date":"2019-10-11", "creater":["Owen Randlett"],  "comment":"Non overlapping AF1"},
+    {"id":"7", "region": "Arborization Field 4", "color": "#4d1f39", "name": "Diencephalon-Retinal Arborization Field 4", "date":"2015-06-10", "creater":["Clemens","Owen Randlett"], "comment":"First segmentation of AF4"},
+    {"id":"8", "region": "Arborization Field 4", "color": "#8EBDB1", "name": "Retinal Arborization Field 4", "date":"2019-08-11", "creater":["Owen Randlett"],  "comment":"Non overlapping AF4"},
+    {"id":"9", "region": "Arborization Field 4", "color": "#39d1e6", "name": "Retinal Arborization Field 4", "date":"2021-11-20", "creater":["Clemens"],  "comment":"Improved anatomy of AF4"},
+    {"id":"10", "region": "Arborization Field 5", "color": "#8e5bd0", "name": "Diencephalon-Retinal Arborization Field 5", "date":"2015-06-10", "creater":["Clemens","Owen Randlett"], "comment":"First segmentation of AF5"},
+    {"id":"11", "region": "Arborization Field 5", "color": "#1b3740", "name": "Retinal Arborization Field 5", "date":"2019-08-11", "creater":["Owen Randlett"],  "comment":"Non overlapping AF5"},
+    {"id":"12", "region": "Arborization Field 5", "color": "#28aa88", "name": "Retinal Arborization Field 5", "date":"2021-11-20", "creater":["Clemens"],  "comment":"Improved anatomy of AF5"},
+    {"id":"13", "region": "Arborization Field 7", "color": "#3922a2", "name": "Diencephalon-Retinal Arborization Field 7", "date":"2015-06-10", "creater":["Clemens","Owen Randlett"], "comment":"First segmentation of AF7"},
+    {"id":"14", "region": "Arborization Field 7", "color": "#3cafe5", "name": "Retinal Arborization Field 7", "date":"2019-08-11", "creater":["Owen Randlett"],  "comment":"Non overlapping AF7"},
+    {"id":"15", "region": "Arborization Field 7", "color": "#b4d306", "name": "Retinal Arborization Field 7", "date":"2021-11-20", "creater":["Clemens"],  "comment":"Improved anatomy of AF7"},
+    {"id":"16", "region": "Arborization Field 9", "color": "#cd2bac", "name": "Diencephalon-Retinal Arborization Field 9", "date":"2015-06-10", "creater":["Clemens","Owen Randlett"], "comment":"First segmentation of AF9"},
+    {"id":"17", "region": "Arborization Field 9", "color": "#e21fba", "name": "Retinal Arborization Field 9", "date":"2019-08-11", "creater":["Owen Randlett"],  "comment":"Non overlapping AF9"},
+    {"id":"18", "region": "Arborization Field 9", "color": "#78bb66", "name": "Retinal Arborization Field 9", "date":"2021-11-20", "creater":["Clemens"],  "comment":"Improved anatomy of AF9"}
+   
+]

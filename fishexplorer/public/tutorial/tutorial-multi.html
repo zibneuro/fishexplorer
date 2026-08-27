@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<title>FishExplorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="../scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fishexplorertutorial.css">
+<style>
+    /* Stackoverflow preview fix, please ignore */
+    .navbar-nav {
+      flex-direction: row;
+    }
+    
+    .nav-link {
+      padding-right: .5rem !important;
+      padding-left: .5rem !important;
+    }
+    
+    /* Fixes dropdown menus placed on the right side */
+    .ml-auto .dropdown-menu {
+      left: auto !important;
+      right: 0px;
+    }
+  </style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+    
+        <a href="../../" class="navbar-brand"  style=" text-decoration: none;"><span class="logo_fish1">Fish</span><span
+          class="logo_fish2">Explorer</span></a>
+       
+        <div class="collapse navbar-collapse" style="float: right;" id="myNavbar">
+          <ul class="navbar-nav ml-auto">
+            
+          </ul>
+        </div>
+        <ul class="nav justify-content-end">
+
+          <li class="nav-item">
+            <a href="http://www.zib.de/impressum" target="_blank" style="color:#0B2E59" class="nav-link">Imprint</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.engertlab.org/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+                class="logo_engerts3">ENGERT</span> <span class="logo_engerts4">Lab</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.zib.de/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+                class="logo_engerts3">ZIB</span></a>
+          </li>
+        </ul>
+  </nav>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block  sidebar">
+        <div class="sidebar-sticky" style="margin-top: 20%">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+              <a  class="list-group-item list-group-item-action" href="general.html">
+                <span data-feather="home"></span>
+                Getting started
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-mece.html">
+                <span data-feather="layers"></span>
+                Visualize MECE hierarchy
+              </a>
+            </li>
+            <li class="list-group-item ">
+              <a class="list-group-item list-group-item-action" href="tutorial.html">
+                <span data-feather="shopping-cart"></span>
+                Visualize 2D regions<span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-3d.html">
+                <span data-feather="users"></span>
+                Visualize 3D regions
+              </a>
+            </li>
+              <li class="list-group-item">
+                  <a class="list-group-item list-group-item-primary" href="tutorial-multi.html">
+                      Multi-channel stacks
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="tutorial-uploadmiscs.html">
+                   Upload custom miscs
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="tutorial-uploadmiscs.html">
+                      Upload custom lines
+                  </a>
+              </li>
+                <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="image-registration.html">
+                    <span data-feather="file"></span>
+                    Image registration
+                  </a>
+                </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+          style="margin-top: 1%">
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <h1 class="h2">Multi-channel stacks</h1>
+              <!-- Image header -->
+
+              <div class="panel-body">
+                <ul class="list-unstyled">
+                  <li> 
+                    Multiple image stacks can be loaded into the FishExplorer in different color channels 
+                    and can be superimposed on the reference brain or any other 3D image dataset, 
+                    e.g. imagine that you want to superimpose the vglut stack and the gadb1 stack
+                    on the reference brain.
+                    If you have just started FishExplorer, you will see the image as shown below.
+                      <div style="text-align:center; margin-top: 10px;">
+                          <img src="images/multi-1.png" class="img-fluid">
+                        </div>
+                        <br>
+                    </li>
+                    <hr>
+                  <li>Click the “Marker and lines” tab (encircled red in the image above).
+                    As a result, you will see the hierarchical line tree shown in the image below.
+                    <br> 
+                    <div style="text-align:center; margin-top: 10px;">
+                    <img src="images/multi-2.png" class="img-fluid">
+                    </div>
+                    <hr>
+                  </li>
+                  <li>Next, select the vglut stack (encircled red in the image below). 
+                    The superimposed stack will appear in both the horizontal section and the 3D viewer.
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/multi-3.png" class="img-fluid">
+                      <img src="images/multi-4.png" class="img-fluid">
+                    </div>
+                    <hr>
+                    <br>
+                  </li>
+                  <li>Next, select the gadb1 stack.
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/multi-6.png" class="img-fluid">
+                    </div>
+                    <br>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      </main>
+    </div>
+  </div>
+
+</body>
+
+</html>

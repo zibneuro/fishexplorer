@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<title>FishExplorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="../scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fishexplorertutorial.css">
+<style>
+  /* Stackoverflow preview fix, please ignore */
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+  }
+
+  /* Fixes dropdown menus placed on the right side */
+  .ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+  }
+</style>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <a href="../../" class="navbar-brand" style=" text-decoration: none;"><span class="logo_fish1">FISH</span><span
+        class="logo_fish2">Explorer</span></a>
+
+    <div class="collapse navbar-collapse" style="float: right;" id="myNavbar">
+      <ul class="navbar-nav ml-auto">
+
+      </ul>
+    </div>
+    <ul class="nav justify-content-end">
+
+      <li class="nav-item">
+        <a href="http://www.zib.de/impressum" target="_blank" style="color:#0B2E59" class="nav-link">Imprint</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.engertlab.org/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+            class="logo_engerts3">ENGERT</span> <span class="logo_engerts4">Lab</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.zib.de/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+            class="logo_engerts3">ZIB</span></a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block sidebar">
+        <div class="sidebar-sticky" style="margin-top: 20%">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="general.html">
+                Getting Started
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="image-registration.html">
+                Image Registration
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-primary" href="tutorial-hier.html">
+                Hierarchial Exploration
+              </a>
+            </li>
+            <li class="list-group-item ">
+              <a class="list-group-item list-group-item-action" href="tutorial.html">
+                Visualize 2D Regions<span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-3d.html">
+                Visualize 3D Regions
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-mece.html">
+                Visualize MECE Hierarchy
+              </a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group-item list-group-item-action" href="tutorial-multi.html">
+                    Multi-channel stacks
+                </a>
+              </li>
+          </ul>
+
+
+        </div>
+      </nav>
+
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+          style="margin-top: 1%">
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <h1 class="h2"> Hierarchical Exploration</h1>
+              <!-- Image header -->
+
+              <div class="panel-body">
+                <ul class="list-unstyled">
+                  <li>
+                    FishExplorer supports interactive and hierarchical exploration of the whole
+                    zebrafish brain. For example, one can load the cellular data in a particular brain region.
+                    Further, cell properties and responses to stimuli can be visualized by clicking on
+                    the cell and so on..
+                    <br>
+                    If you have started FishExplorer newly, you are already in the 3D-Viewer as shown in image below.
+                    <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/spatial-main.png" class="img-fluid">
+                      </div>
+                    
+                  </li>
+                  <br>
+                  <li>Imagine now that you want to display e.g. the list of neurons <i>wholebrain_armin-1</i> cellular
+                    dataset in the <i>Rhombencephalon</i>
+                    and also visualize activity of some of the neurons. In order to do that, first search the anatomical
+                    region by typing the first letters in the white searching box (encircled with a red line) in the
+                    list viewer on the right. Alternatively,
+                    you can scroll through the list of regions. The list of regions matching the search criteria will
+                    appear on the screen as shown below.
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/hier-2.png" class="img-fluid">
+                    </div>
+                    <hr>
+                  </li>
+                  <li> Next, click the <i>Rhombencephalon</i> (encircled red in the image above), the <i>wholebrain_armin-1</i> tab will appear
+                    on the screen as shown below
+                    <br>
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/hier-3.png" class="img-fluid">
+                    </div>
+                    <hr>
+                  </li>
+
+                  <li>Next, click the  <i>wholebrain_armin-1</i> tab (encircled red in the image above), the list of neurons which are spatially
+                    located inside the <i>Rhombencephalon</i> (encircled green in the image above)
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/hier-4.png" class="img-fluid">
+                    </div>
+                    <hr>
+                  </li>
+
+                  <li>
+                    Next,  click the select all neuron button (encircled red in the image above), all the neurons will appear 
+                    on the screen as shown below.
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/hier-5.png" class="img-fluid">
+                    </div>
+                  </li>
+                  <hr>
+                  <li>Imagine now you want to visualize the response of stimulus to particular cell e.g. <i>Neuron-52</i>.
+                      Click the cell (encircled red in the image above), the cell properties and its activity will
+                      appear as shown below.
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/hier-6.png" class="img-fluid">
+                    </div>
+                  </li>
+                  <hr>
+                </ul>
+              </div>
+            </div>
+      </main>
+    </div>
+  </div>
+
+</body>
+
+</html>

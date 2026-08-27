@@ -1,0 +1,251 @@
+[
+    {
+        "id": "1",
+        "name": "wholebrain_armin-1",
+        "downloaddatafile": "wholebrain-1/neurons.zip",
+        "datafile": "neurons.json",
+        "downloadspatialfile": [
+            "wholebrain-1/owens.zip",
+            "wholebrain-1/mece.zip",
+            "wholebrain-1/kunst.zip"
+        ],
+        "spatialfile": [
+            "owens.json",
+            "mece.json",
+            "kunst.json"
+        ],
+        "createdby": "armin",
+        "time": "0-80-0.5",
+        "properties": {
+            "x": {
+                "min": 0.0,
+                "max": 1406.0,
+                "defaultMin": 300.0,
+                "defaultMax": 1406.0,
+                "type": "numeric"
+            },
+            "y": {
+                "min": 0.0,
+                "max": 621.0,
+                "defaultMin": 200.0,
+                "defaultMax": 621.0,
+                "type": "numeric"
+            },
+            "z": {
+                "min": 0.0,
+                "max": 138.0,
+                "defaultMin": 20.0,
+                "defaultMax": 138.0,
+                "type": "numeric"
+            },
+            "selectivity": {
+                "min": -87180.90,
+                "max": 55171.47,
+                "defaultMin": -87180.90,
+                "defaultMax": 55171.47,
+                "type": "numeric"
+            }
+        },
+        "clusters": [
+            {
+                "id": "bc6ada86-c8a8-4dc6-8357-12ee3b19407d",
+                "dataset": "1",
+                "color": "#008991",
+                "name": "Right Selective",
+                "alpha": 0.7,
+                "properties": {
+                    "x": {
+                        "min": 0.0,
+                        "max": 1406.0,
+                        "defaultMin": 0.0,
+                        "defaultMax": 1406.0,
+                        "type": "numeric"
+                    },
+                    "y": {
+                        "min": 0.0,
+                        "max": 621.0,
+                        "defaultMin": 0.0,
+                        "defaultMax": 621.0,
+                        "type": "numeric"
+                    },
+                    "z": {
+                        "min": 0.0,
+                        "max": 138.0,
+                        "defaultMin": 0.0,
+                        "defaultMax": 138.0,
+                        "type": "numeric"
+                    },
+                    "selectivity": {
+                        "min": -87180.90,
+                        "max": 55171.47,
+                        "defaultMin": 5000.90,
+                        "defaultMax": 55171.47,
+                        "type": "numeric"
+                    }
+                }
+            },
+            {
+                "id": "f6a8a1cc-b24a-475c-8484-18a8595cc56d",
+                "dataset": "1",
+                "color": "#284AC9",
+                "name": "Left Selective",
+                "alpha": 0.7,
+                "properties": {
+                    "x": {
+                        "min": 0.0,
+                        "max": 1406.0,
+                        "defaultMin": 0.0,
+                        "defaultMax": 1406.0,
+                        "type": "numeric"
+                    },
+                    "y": {
+                        "min": 0.0,
+                        "max": 621.0,
+                        "defaultMin": 0.0,
+                        "defaultMax": 621.0,
+                        "type": "numeric"
+                    },
+                    "z": {
+                        "min": 0.0,
+                        "max": 138.0,
+                        "defaultMin": 0.0,
+                        "defaultMax": 138.0,
+                        "type": "numeric"
+                    },
+                    "selectivity": {
+                        "min": -87180.90,
+                        "max": 55171.47,
+                        "defaultMin": -87180.90,
+                        "defaultMax": -5000.00,
+                        "type": "numeric"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "wholebrain_armin-2",
+        "downloaddatafile": "wholebrain-2/neurons.zip",
+        "datafile": "neurons.json",
+        "downloadspatialfile": [
+            "wholebrain-2/owens.zip",
+            "wholebrain-2/mece.zip",
+            "wholebrain-2/kunst.zip"
+
+        ],
+        "spatialfile": [
+            "owens.json",
+            "mece.json",
+            "kunst.json"
+        ],
+        "createdby": "armin",
+        "time": "0-80-0.5",
+        "properties": {
+            "x": {
+                "min": 0.0,
+                "max": 1406.0,
+                "defaultMin": 100.0,
+                "defaultMax": 1406.0,
+                "type": "numeric"
+            },
+            "y": {
+                "min": 0.0,
+                "max": 621.0,
+                "defaultMin": 200.0,
+                "defaultMax": 621.0,
+                "type": "numeric"
+            },
+            "z": {
+                "min": 0.0,
+                "max": 138.0,
+                "defaultMin": 0.0,
+                "defaultMax": 138.0,
+                "type": "numeric"
+            },
+            "selectivity": {
+                "min": -57492.81,
+                "max": 90529.65,
+                "defaultMin": -57492.81,
+                "defaultMax": 90529.65,
+                "type": "numeric"
+            }
+        },
+        "clusters": [
+            {
+                "id": "dde3c94e-7661-4faa-bfc2-6171fbeb2dde",
+                "dataset": "2",
+                "color": "#008991",
+                "name": "Right Selective",
+                "alpha": 0.7,
+                "properties": {
+                    "x": {
+                        "min": 0.0,
+                        "max": 1406.0,
+                        "defaultMin": 0.0,
+                        "defaultMax": 1406.0,
+                        "type": "numeric"
+                    },
+                    "y": {
+                        "min": 0.0,
+                        "max": 621.0,
+                        "defaultMin": 0.0,
+                        "defaultMax": 621.0,
+                        "type": "numeric"
+                    },
+                    "z": {
+                        "min": 0.0,
+                        "max": 138.0,
+                        "defaultMin": 0.0,
+                        "defaultMax": 138.0,
+                        "type": "numeric"
+                    },
+                    "selectivity": {
+                        "min": -87180.90,
+                        "max": 55171.47,
+                        "defaultMin": 5000.90,
+                        "defaultMax": 90529.65,
+                        "type": "numeric"
+                    }
+                }
+            },
+            {
+                "id": "5a2d8a5f-2caf-4e01-b124-39f96957cae3",
+                "dataset": "2",
+                "color": "#284AC9",
+                "name": "Left Selective",
+                "alpha": 0.7,
+                "properties": {
+                    "x": {
+                        "min": 0.0,
+                        "max": 1406.0,
+                        "defaultMin": 0.0,
+                        "defaultMax": 1406.0,
+                        "type": "numeric"
+                    },
+                    "y": {
+                        "min": 0.0,
+                        "max": 621.0,
+                        "defaultMin": 0.0,
+                        "defaultMax": 621.0,
+                        "type": "numeric"
+                    },
+                    "z": {
+                        "min": 0.0,
+                        "max": 138.0,
+                        "defaultMin": 0.0,
+                        "defaultMax": 138.0,
+                        "type": "numeric"
+                    },
+                    "selectivity": {
+                        "min": -57492.81,
+                        "max": 55171.47,
+                        "defaultMin": -57492.81,
+                        "defaultMax": -5000.00,
+                        "type": "numeric"
+                    }
+                }
+            }
+        ]
+    }
+]

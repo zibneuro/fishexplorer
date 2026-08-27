@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<title>FishExplorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="../scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fishexplorertutorial.css">
+<style>
+  /* Stackoverflow preview fix, please ignore */
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+  }
+
+  /* Fixes dropdown menus placed on the right side */
+  .ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+  }
+</style>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <a href="../../" class="navbar-brand" style=" text-decoration: none;"><span class="logo_fish1">Fish</span><span
+        class="logo_fish2">Explorer</span></a>
+
+    <div class="collapse navbar-collapse" style="float: right;" id="myNavbar">
+      <ul class="navbar-nav ml-auto">
+
+      </ul>
+    </div>
+    <ul class="nav justify-content-end">
+
+      <li class="nav-item">
+        <a href="http://www.zib.de/impressum" target="_blank" style="color:#0B2E59" class="nav-link">Imprint</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.engertlab.org/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+            class="logo_engerts3">ENGERT</span> <span class="logo_engerts4">Lab</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.zib.de/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+            class="logo_engerts3">ZIB</span></a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block sidebar">
+        <div class="sidebar-sticky" style="margin-top: 20%">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-primary" href="general.html">
+                Getting started
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-mece.html">
+                Visualize MECE hierarchy
+              </a>
+            </li>
+            <li class="list-group-item ">
+              <a class="list-group-item list-group-item-action" href="tutorial.html">
+                Visualize 2D regions<span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-3d.html">
+                Visualize 3D regions
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-multi.html">
+                Multi-channel stacks
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-uploadmiscs.html">
+               Upload custom miscs
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-uploadlines.html">
+                  Upload custom lines
+              </a>
+          </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="image-registration.html">
+                Image registration
+              </a>
+            </li>
+          </ul>
+
+
+        </div>
+      </nav>
+
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+          style="margin-top: 3%">
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+
+              <h1 class="h2">Getting started</h1>
+              <!-- Image header -->
+
+              <div class="panel-body">
+
+                <ul class="list-unstyled">
+                  <li>
+                    FishExplorer is a JavaScript-based visualization platform and can therefore be used in any modern browser without installing software.
+                    Currently, a database server at ZIB (Zuse Institute Berlin) is used as the backend. 
+                    In the future, it will be possible to connect to other data servers using a login mechanism. 
+                    At the ZIB database server, only the zebrafish and medaka reference frames are currently available. 
+                    Further data can be made available after integration to our dataset in the near future. 
+                  </li>
+                  <br>
+                  <li>
+                    <b>System requirements:</b> The minimal requirements for running FishExplorer are a webGL compatible device and Google Chrome browser. The rest depends on the type of data users want to load. 
+                    The requirements mentioned below are sufficient enough to load most of the FishExplorer data. 
+                    <ol>
+                      <li>
+                        <b>WebGL version:</b> WebGl 1.0 and 2.0
+                      </li>
+                      <li>
+                      <b>Browser:</b> Google Chrome (The platform is well tested on Google Chrome. We suggest that users use Google Chrome for the best experience). 
+                      We will support further major browsers in the near future.
+                      </li>
+                      <li>
+                        <b>Memory:</b> 16 GB or 32 GB
+                      </li>
+                      <li>
+                        <b>Browser memory:</b> ~200 - 400 MB (all brain regions and ~2000 neurons cell morphologies can easily be rendered with 400 MB of browser memory)
+                      </li>
+                      <li>
+                        <b>Operating system:</b> Windows 10+11, Linux, MacOS (no support for android or iOS devices)
+                      </li>
+                      <li>
+                        <b>Processor:</b> 32 or 64 bit
+                      </li>
+                    </ol>
+                    
+                  </li>
+                  <br>
+                  <li> In this section, you will learn how to
+
+                    <ol>
+                      <li> Save the current scene</li>
+                      <li> Load the scene</li>
+                      <li> Invoke viewers for loading data i.e 3d viewer, sagittal section etc </li>
+                    </ol>
+                  </li>
+                  <li>
+                    When FishExplorer is started, a window like the one shown below appears on the screen, The top
+                    region
+                    page is divided into three main parts:  “Files”, “Views” and “Sign-in”.
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/start.png" class="img-fluid">
+                    </div>
+                    <br>
+                  </li>
+                  <li>
+                    <b class="list-group-item"> Tab "File"</b>
+                    The submenu in the tab "File" consists of two entries: “Save scene as” and “Load scene”, where a 'scene' describes the current visualization 
+                    and analysis status in the brain atlas platform. 
+                    Saving the scene allows the user to reproduce a previous state of visualization and data analysis.   
+                    <ol>
+                      <li> The <b>Save scene as:</b>  entry allows users to store the current state of the project locally usings metadata 
+                        about brain regions, cells and morphologies (as shown in the image below).
+                        <div style="text-align:center; margin-top: 10px;">
+                          <img src="images/download.png" class="img-fluid">
+                        </div>
+                        <br>
+                      </li>
+                      <li>The <b>Load scene</b> entry allows users to load locally stored visualization and analysis states into the platform. 
+                        <div style="text-align:center; margin-top: 10px;">
+                          <img src="images/loadproject-1.png" class="img-fluid">
+                        </div>
+                        <br>
+                        As a test case, the user can load
+                        this <a href="jsons/fishexplorer-2024-11-09.json" download>project file </a> (as shown in the image below). 
+                        The list of brain regions, cells and morphologies mentioned in the project file will be loaded.
+                        <div style="text-align:center; margin-top: 10px;">
+                          <img src="images/loadproject-2.png" class="img-fluid">
+                        </div>
+                        <br>
+                      </li>
+                    </ol>
+                  </li>
+                  <!--
+                  <li>
+                    <b class="list-group-item">Views</b>
+                    It allows you to load and unload respective viewers i.e <i>3d-viewer, horizontal section, transverse
+                      section and sagittal section</i>. The
+                    default loaded are <i>3d-viewer and horizontal section</i>. As use usecase, we will load <i>sagittal
+                      section</i>. <br>
+                    Click the view button, a list of viewers like the one shown below appears on the screen.
+                    <br>
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/loadviewer-1.png" class="img-fluid">
+                    </div>
+
+                    Click the link "sagittal section" (encircled red in the image above), Sagittal section viewer will
+                    appear on screen
+                    (as shown in the image below).
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/singlecell-2.png" class="img-fluid">
+                    </div>
+                  </li>
+                  -->
+                  <br>
+                  <li>
+                    <b class="list-group-item">Tab “Sign-in”</b>
+                    Users can create custom accounts and keep their data in their private directory until 
+                    they are ready to share them with the community. 
+                    (We believe in open science but in order to generate quality results, one needs to iteratively perform behavior experiments, segment regions, mark cells, compare results etc.)
+                    Working in a private account will secure your data in privacy.                     
+                    <br>
+                    <br>
+                    To create user a private account, please follow the steps described below:
+                    <br>
+                    <ol>
+                    <li> 
+                      Restart FishExplorer by hitting the refresh button of the browser. 
+                      Then, click the “Sign-in” button in the top bar in the default window, as shown in the image below.  
+                      <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/signin.png" class="img-fluid">
+                      </div>
+                      <br>
+                    </li>
+                    <li>  
+                      As a result, the sign-in page, as shown in the image below, will appear. 
+                      Login with your credentials, or, if you are a first-time user, register before signing-in. 
+                      <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/login.png" class="img-fluid">
+                      </div>
+                      <br>
+                    </li>
+                    <li> 
+                      Click the “Register” tab (encircled red in the image above). 
+                      As a result, the register page, as shown in the image below, will appear. 
+                      Please provide username, email address and password for registration.
+                      <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/registeruser.png" class="img-fluid">
+                      </div>
+                      <br>
+                    </li>
+                  </ol>
+                  </li>
+                  <li>
+                    <b class="list-group-item">Tab “Help”</b>
+                    <br>
+                    It provides general information about the platform. 
+                    Also, it offers tutorials that explain how users can easily browse brain regions, markers and single cells. 
+                    And we have a tutorial for image stacks registration.
+
+                    <br>
+                  </li>
+                </ul>
+
+
+              </div>
+            </div>
+      </main>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

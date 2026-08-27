@@ -1,0 +1,217 @@
+{
+    "id": "3e80b4b4-467f-4dcc-90fb-aa4cbccc8985",
+    "name": "zebrafishbrain.json",
+    "dataset": "0",
+    "regions": [
+        {
+            "id": 128,
+            "color": "#b07aa1",
+            "alpha": 0.7
+        },
+        {
+            "id": 129,
+            "color": "#D54590",
+            "alpha": 0.7
+        },
+        {
+            "id": 3,
+            "color": "#80807E",
+            "alpha": 0.7
+        }
+    ],
+    "neurons": {
+        "1": []
+    },
+    "morphologies": {
+        "1": [
+            {
+                "id": 1,
+                "color": "#1abc32",
+                "alpha": 0.7
+            },
+            {
+                "id": 4,
+                "color": "#a99357",
+                "alpha": 0.7
+            },
+            {
+                "id": 6,
+                "color": "#ac7f84",
+                "alpha": 0.7
+            },
+            {
+                "id": 10,
+                "color": "#66e352",
+                "alpha": 0.7
+            },
+            {
+                "id": 11,
+                "color": "#aeb189",
+                "alpha": 0.7
+            },
+            {
+                "id": 18,
+                "color": "#21b750",
+                "alpha": 0.7
+            }
+        ]
+    },
+    "clusters": {
+        "clusters": [
+            {
+                "id": "bc6ada86-c8a8-4dc6-8357-12ee3b19407d",
+                "dataset": "1",
+                "color": "#008991",
+                "name": "Right Selective",
+                "alpha": 0.7,
+                "properties": {
+                    "x": {
+                        "min": 0,
+                        "max": 1406,
+                        "defaultMin": 0,
+                        "defaultMax": 1406,
+                        "type": "numeric"
+                    },
+                    "y": {
+                        "min": 0,
+                        "max": 621,
+                        "defaultMin": 0,
+                        "defaultMax": 621,
+                        "type": "numeric"
+                    },
+                    "z": {
+                        "min": 0,
+                        "max": 138,
+                        "defaultMin": 0,
+                        "defaultMax": 138,
+                        "type": "numeric"
+                    },
+                    "selectivity": {
+                        "min": -87180.9,
+                        "max": 55171.47,
+                        "defaultMin": 5000.9,
+                        "defaultMax": 55171.47,
+                        "type": "numeric"
+                    }
+                },
+                "cellIds": {}
+            },
+            {
+                "id": "f6a8a1cc-b24a-475c-8484-18a8595cc56d",
+                "dataset": "1",
+                "color": "#284AC9",
+                "name": "Left Selective",
+                "alpha": 0.7,
+                "properties": {
+                    "x": {
+                        "min": 0,
+                        "max": 1406,
+                        "defaultMin": 0,
+                        "defaultMax": 1406,
+                        "type": "numeric"
+                    },
+                    "y": {
+                        "min": 0,
+                        "max": 621,
+                        "defaultMin": 0,
+                        "defaultMax": 621,
+                        "type": "numeric"
+                    },
+                    "z": {
+                        "min": 0,
+                        "max": 138,
+                        "defaultMin": 0,
+                        "defaultMax": 138,
+                        "type": "numeric"
+                    },
+                    "selectivity": {
+                        "min": -87180.9,
+                        "max": 55171.47,
+                        "defaultMin": -87180.9,
+                        "defaultMax": -5000,
+                        "type": "numeric"
+                    }
+                },
+                "cellIds": {}
+            },
+            {
+                "id": "dde3c94e-7661-4faa-bfc2-6171fbeb2dde",
+                "dataset": "2",
+                "color": "#008991",
+                "name": "Right Selective",
+                "alpha": 0.7,
+                "properties": {
+                    "x": {
+                        "min": 0,
+                        "max": 1406,
+                        "defaultMin": 0,
+                        "defaultMax": 1406,
+                        "type": "numeric"
+                    },
+                    "y": {
+                        "min": 0,
+                        "max": 621,
+                        "defaultMin": 0,
+                        "defaultMax": 621,
+                        "type": "numeric"
+                    },
+                    "z": {
+                        "min": 0,
+                        "max": 138,
+                        "defaultMin": 0,
+                        "defaultMax": 138,
+                        "type": "numeric"
+                    },
+                    "selectivity": {
+                        "min": -87180.9,
+                        "max": 55171.47,
+                        "defaultMin": 5000.9,
+                        "defaultMax": 90529.65,
+                        "type": "numeric"
+                    }
+                },
+                "cellIds": {}
+            },
+            {
+                "id": "5a2d8a5f-2caf-4e01-b124-39f96957cae3",
+                "dataset": "2",
+                "color": "#284AC9",
+                "name": "Left Selective",
+                "alpha": 0.7,
+                "properties": {
+                    "x": {
+                        "min": 0,
+                        "max": 1406,
+                        "defaultMin": 0,
+                        "defaultMax": 1406,
+                        "type": "numeric"
+                    },
+                    "y": {
+                        "min": 0,
+                        "max": 621,
+                        "defaultMin": 0,
+                        "defaultMax": 621,
+                        "type": "numeric"
+                    },
+                    "z": {
+                        "min": 0,
+                        "max": 138,
+                        "defaultMin": 0,
+                        "defaultMax": 138,
+                        "type": "numeric"
+                    },
+                    "selectivity": {
+                        "min": -57492.81,
+                        "max": 55171.47,
+                        "defaultMin": -57492.81,
+                        "defaultMax": -5000,
+                        "type": "numeric"
+                    }
+                },
+                "cellIds": {}
+            }
+        ],
+        "selected": []
+    },
+    "scene": null
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<title>FishExplorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="../scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fishexplorertutorial.css">
+<style>
+    /* Stackoverflow preview fix, please ignore */
+    .navbar-nav {
+      flex-direction: row;
+    }
+    
+    .nav-link {
+      padding-right: .5rem !important;
+      padding-left: .5rem !important;
+    }
+    
+    /* Fixes dropdown menus placed on the right side */
+    .ml-auto .dropdown-menu {
+      left: auto !important;
+      right: 0px;
+    }
+  </style>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+      <a href="../../" class="navbar-brand"  style=" text-decoration: none;"><span class="logo_fish1">Fish</span><span
+        class="logo_fish2">Explorer</span></a>
+     
+      <div class="collapse navbar-collapse" style="float: right;" id="myNavbar">
+        <ul class="navbar-nav ml-auto">
+          
+        </ul>
+      </div>
+      <ul class="nav justify-content-end">
+
+        <li class="nav-item">
+          <a href="http://www.zib.de/impressum" target="_blank" style="color:#0B2E59" class="nav-link">Imprint</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.engertlab.org/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+              class="logo_engerts3">ENGERT</span> <span class="logo_engerts4">Lab</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.zib.de/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+              class="logo_engerts3">ZIB</span></a>
+        </li>
+      </ul>
+  </nav>
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block sidebar">
+        <div class="sidebar-sticky" style="margin-top: 20%">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+              <a  class="list-group-item list-group-item-action" href="general.html">
+                Getting Started
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="image-registration.html">
+                Image Registration
+              </a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group-item  list-group-item-action" href="tutorial-hier.html">
+                 Hierarchial Exploration
+                </a>
+            </li>
+            <li class="list-group-item ">
+              <a class="list-group-item list-group-item-action" href="tutorial.html">
+                Visualize 2D Regions<span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-3d.html">
+                Visualize 3D Regions
+              </a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group-item list-group-item-action" href="tutorial-mece.html">
+                  Visualize MECE Hierarchy
+                </a>
+              </li>
+            <li class="list-group-item">
+                <a class="list-group-item list-group-item-action" href="tutorial-spatial.html">
+                  Spatial Queries
+                </a>
+              </li>
+            
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-primary" href="tutorial-cell.html">
+                Visualize Cell Traces
+              </a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group-item list-group-item-action" href="tutorial-singlecell.html">
+                    Visualize Single Cells & Clusters
+                </a>
+              </li>
+              <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="tutorial-multi.html">
+                      Multi-channel stacks
+                  </a>
+                </li>
+          </ul>
+
+
+        </div>
+      </nav>
+
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+          style="margin-top: 1%">
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <h1 class="h2"> Visualize Cell Traces</h1>
+              <!-- Image header -->
+
+              <div class="panel-body">
+                <ul class="list-unstyled">
+                  <li> 
+                      To understand brain circuits underlying behavior, it is essential to know the relation between
+                      activity and network architecture. Building a
+                      cellular-resolution atlas of the analyzed neurons, understand their spatial organization will allow us to further test and refine our
+                      proposed network model.
+                      This tutorial provides a step-by-step tutorial for the visualization of wholebrain cell clusters measured and mapped 
+                      by <a href="https://www.mcb.harvard.edu/directory/armin-bahl/">Armin Bahl</a>. 
+                      
+                      To demonstrate the functionality of the cell clustering, we consider the <i>wholebrain_armin-1</i> cellular dataset.
+                      <br>
+                      <br>
+                      Follow the steps below to display and create cellular clusters:
+                  </li>
+                    <br>
+                  <li> When FishExplorer is running, a default window like the one shown below appears on the screen.
+                    <br> 
+                    <div style="text-align:center; margin-top: 10px;">
+                    <img src="images/anatomical-main.png" class="img-fluid">
+                    </div>
+                    <hr></li>
+
+                  <li>Click the tab Anatomical Units (encircled red in the image above), anatomical viewer will appear on screen
+                     and then click Neuron clusters (as shown in the image below). 
+                      The currently selected dataset, list of predefined clusters for the selected dataset will appears 
+                      on the screen (encircled red in the image below)
+                      <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/cell-viewer.png" class="img-fluid">
+                    </div><hr>
+                  </li>
+
+                  <li>
+                      Imagine now that you want to display e.g. all the cells with following parameters
+                      <br>
+                      <br>
+                      <i> XMin: 0</i>, <i>XMax: 1406</i>, <i>YMin: 0</i>, <i>YMax: 621</i>, <i>ZMin: 0</i>, <i>ZMax: 137</i>, <i>SelectivityMin: 5001</i>, <i>SelectivityMax: 55171</i>
+                      <br>
+                      <br>
+                      In order to do that, first click the "Create Cluster" (encircled red in the image above). The cluster with predefined parameters
+                      will appear on screen (encircled green in the image below). 
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/add-cluster.png" class="img-fluid">
+                    </div><hr>
+                  </li>
+                  <li>
+                      Next, you can update 
+                      the parameters of the cluster by changing the minimium and maximum value of sliders. 
+                      Finally, click on the "Save button" so that corresponding cluster will be saved.
+                    
+
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/change-parameters.png" class="img-fluid">
+                    </div>
+                  </li>
+                  <hr>
+                  <li>Next, select the checkbox in front of the region as shown above, 
+                    the cell clusters will be displayed in the 3D-viewer as shown below.
+                    <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/cells-3d.png" class="img-fluid">
+                      </div>
+                  </li>
+                  <hr>
+                  <li>Imagine now you want to visualize the response of stimulus to particular cell.
+                    Click the cell in the 3D-viewer, the cell properties and its activity will
+                    appear as shown below.
+
+                    <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/cells-export.png" class="img-fluid">
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      </main>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

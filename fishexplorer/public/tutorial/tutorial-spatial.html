@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<title>FishExplorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="../scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fishexplorertutorial.css">
+<style>
+    /* Stackoverflow preview fix, please ignore */
+    .navbar-nav {
+      flex-direction: row;
+    }
+    
+    .nav-link {
+      padding-right: .5rem !important;
+      padding-left: .5rem !important;
+    }
+    
+    /* Fixes dropdown menus placed on the right side */
+    .ml-auto .dropdown-menu {
+      left: auto !important;
+      right: 0px;
+    }
+  </style>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+      <a href="../../" class="navbar-brand"  style=" text-decoration: none;"><span class="logo_fish1">FISH</span><span
+        class="logo_fish2">Explorer</span></a>
+     
+      <div class="collapse navbar-collapse" style="float: right;" id="myNavbar">
+        <ul class="navbar-nav ml-auto">
+          
+        </ul>
+      </div>
+      <ul class="nav justify-content-end">
+
+        <li class="nav-item">
+          <a href="http://www.zib.de/impressum" target="_blank" style="color:#0B2E59" class="nav-link">Imprint</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.engertlab.org/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+              class="logo_engerts3">ENGERT</span> <span class="logo_engerts4">Lab</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.zib.de/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+              class="logo_engerts3">ZIB</span></a>
+        </li>
+      </ul>
+  </nav>
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block sidebar">
+        <div class="sidebar-sticky" style="margin-top: 20%">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+              <a  class="list-group-item list-group-item-action" href="general.html">
+                <span data-feather="home"></span>
+                Getting Started
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="image-registration.html">
+                <span data-feather="file"></span>
+                Image Registration
+              </a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group-item  list-group-item-action" href="tutorial-hier.html">
+                 Hierarchial Exploration
+                </a>
+            </li>
+            <li class="list-group-item ">
+              <a class="list-group-item list-group-item-action" href="tutorial.html">
+                <span data-feather="shopping-cart"></span>
+                Visualize 2D Regions<span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-3d.html">
+                <span data-feather="users"></span>
+                Visualize 3D Regions
+              </a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group-item list-group-item-action" href="tutorial-mece.html">
+                  <span data-feather="layers"></span>
+                  Visualize MECE Hierarchy
+                </a>
+              </li>
+            <li class="list-group-item">
+                <a class="list-group-item list-group-item-primary" href="tutorial-spatial.html">
+                  <span data-feather="users"></span>
+                  Spatial Queries
+                </a>
+              </li>
+           
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-cell.html">
+                <span data-feather="layers"></span>
+                Visualize Cell Traces
+              </a>
+            </li>
+            <li class="list-group-item">
+                <a class="list-group-item list-group-item-action" href="tutorial-singlecell.html">
+                    Visualize Single Cells & Clusters
+                </a>
+              </li>
+              <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="tutorial-multi.html">
+                      Multi-channel stacks
+                  </a>
+                </li>
+          </ul>
+
+
+        </div>
+      </nav>
+
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+          style="margin-top: 1%">
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <h1 class="h2">Spatial Queries</h1>
+              <!-- Image header -->
+
+              <div class="panel-body">
+                <ul class="list-unstyled">
+                  <li> 
+                      This section provides a step-by-step introduction to spatial analysis of zebrafish.
+                      Biologists often want to examine sub-volumes of the zebra fish brain more closely,
+                      e.g. find the brain regions therein, and also find neurons of a certain type in this region                  
+                      <br>
+                      <br>
+                      Follow the steps below to perfom spatial analysis of zebrafish brain regions:
+                  </li>
+                    <br>
+                  <li> When FishExplorer is running, a default window like the one shown below appears on the screen.
+                    <br> 
+                    <div style="text-align:center; margin-top: 10px;">
+                    <img src="images/spatial-main.png" class="img-fluid">
+                    </div>
+                    <hr></li>
+                    <li> Click the view button (encircled red in the image above), a list of viewers like the one shown below appears on the screen.
+                      <br> 
+                      <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/spatial-tab.png" class="img-fluid">
+                      </div>
+                      <hr></li>
+                  <li> Click the "Spatial Search" tab (encircled red in the image above). Then a spatial search viewer, like the one shown below, appears on the screen.
+                     User can perform spatial search on both Owen's et al (2015) regions and MECE Hierarchy.
+                      <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/spatial-enable.png" class="img-fluid">
+                    </div><hr>
+                  </li>
+
+                  <li> Check the checkbox in front of Owen's et al (2015) (encircled red in the image above), volumetric box will appear in 3D-viewer
+                     on the screen (encircled green in the image below). Users can disable the spatial search using the same and 
+                     volumetric box will disappear from the screen.
+                     <div style="text-align:center; margin-top: 10px;">
+                     <img src="images/spatial-enable2.png" class="img-fluid">
+                   </div><hr>
+                 </li>
+                  <li>
+                     Next, drag the volumetric box to any new position on the slice. For example,
+                     we dragged the box towards the hindbrain of the zebrafish (encircled green in the image below). 
+                     Once the drag ends, the spatial search will start automatically (encircled red in the image below).
+                     The user will not able to further drag the box till the spatial search ends.
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/spatial-search.png" class="img-fluid">
+                    </div><hr>
+                  </li>
+                  <li>
+                    Once the spatial search ends, the list of brain regions which are “Overlapping or Within” volumetric
+                    box will appear on screen (encircled red in the image below).
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/spatial-search-result.png" class="img-fluid">
+                    </div>
+                  </li>
+                  <hr>
+                  <li>
+                      Next, user can increase or decrease the size of volumetric box by dragging the 8 blue colored
+                      interactors on the boundary of the box (encircled green in the image below). For example,
+                      we decreased the size of volumetric box using one of the marker (encircled green in the image below)
+                      .
+                      <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/volume-size.png" class="img-fluid">
+                      </div>
+                    </li>
+                 
+                </ul>
+              </div>
+            </div>
+      </main>
+    </div>
+  </div>
+
+</body>
+
+</html>

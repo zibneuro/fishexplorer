@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "name": "Kunst et al",
+        "neuronfile": "jsons/kunst-morphologies.json",
+        "clusters": "jsons/kunst-clusters.json"
+    },
+    {
+        "id": "2",
+        "name": "Simone et al",
+        "neuronfile": "jsons/simone-morphologies.json",
+        "clusters": ""
+    },
+    {
+        "id": "3",
+        "name": "Uploaded",
+        "neuronfile": "",
+        "clusters": ""
+    }
+]

@@ -1,0 +1,54 @@
+{
+  "dimensions": {
+    "x": [
+      8e-9,
+      "m"
+    ],
+    "y": [
+      8e-9,
+      "m"
+    ],
+    "z": [
+      3e-8,
+      "m"
+    ]
+  },
+  "position": [
+    52171.76953125,
+    32408.541015625,
+    6295.5
+  ],
+  "crossSectionScale": 60.10632710591174,
+  "projectionOrientation": [
+    0.29750484228134155,
+    -0.05198398232460022,
+    -0.016357911750674248,
+    0.9531636834144592
+  ],
+  "projectionScale": 9721.053129639591,
+  "layers": [
+    {
+      "type": "image",
+      "source": "brainmaps://828646373025:fish1:raw_20211023_clahe",
+      "tab": "source",
+      "name": "raw_20211023_clahe"
+    },
+    {
+      "type": "segmentation",
+      "source": "brainmaps://828646373025:fish1:raw_20211023_seg_20220521",
+      "tab": "source",
+      "name": "2022_raw_20211023_seg_20220521",
+      "archived": true
+    },
+    {
+      "type": "segmentation",
+      "source": "brainmaps://828646373025:fish1:raw_20211023_seg_rc2",
+      "tab": "source",
+      "segments": [
+        "49044551203"
+      ],
+      "name": "2021_raw_20211023_seg_rc2"
+    }
+  ],
+  "layout": "xy"
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "id": "e03e8505-a28b-4c49-985a-5f774a733de1",
+        "name": "190619_ants.swc",
+       "dataset": "2",
+        "regiontype": 1,
+        "color": "#526326",
+        "threshold": 0.7,
+        "swcfile": "morphologies/armin/190619_ants.swc"
+    },
+    {
+        "id": "155a2ed7-e725-42de-8ee3-6469973ab5b2",
+        "name": "190619_cmtk.swc",
+       "dataset": "2",
+        "regiontype": 1,
+        "color": "#c7d69b",
+        "threshold": 0.7,
+        "swcfile": "morphologies/armin/190619_cmtk.swc"
+    },
+    {
+        "id": "35edfa9d-f359-4118-a3bb-1142cb086de3",
+        "name": "registered_original.swc",
+       "dataset": "2",
+        "regiontype": 1,
+        "color": "#816322",
+        "threshold": 0.7,
+        "swcfile": "morphologies/armin/registered_original.swc"
+    }
+]

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<title>CircuitExplorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="../scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fishexplorertutorial.css">
+<style>
+    /* Stackoverflow preview fix, please ignore */
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .nav-link {
+        padding-right: .5rem !important;
+        padding-left: .5rem !important;
+    }
+
+    /* Fixes dropdown menus placed on the right side */
+    .ml-auto .dropdown-menu {
+        left: auto !important;
+        right: 0px;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <a href="../../" class="navbar-brand" style=" text-decoration: none;"><span
+                class="logo_fish1">Circuit</span><span class="logo_fish2">Explorer</span></a>
+
+        <div class="collapse navbar-collapse" style="float: right;" id="myNavbar">
+            <ul class="navbar-nav ml-auto">
+
+            </ul>
+        </div>
+        <ul class="nav justify-content-end">
+
+            <li class="nav-item">
+                <a href="http://www.zib.de/impressum" target="_blank" style="color:#0B2E59" class="nav-link">Imprint</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.engertlab.org/" target="_blank"
+                    style="padding: 5px 2px 2px 2px;"><span class="logo_engerts3">ENGERT</span> <span
+                        class="logo_engerts4">Lab</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.zib.de/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+                        class="logo_engerts3">ZIB</span></a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block sidebar">
+                <div class="sidebar-sticky" style="margin-top: 20%">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-primary" href="circuitexplorer-general.html">
+                                Getting started
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-action" href="circuitexplorer-example.html">
+                                Elementary case study
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+            </nav>
+
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+                    style="margin-top: 3%">
+
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+
+                            <h1 class="h2">Getting started</h1>
+                            <!-- Image header -->
+
+                            <div class="panel-body">
+
+                                <ul class="list-unstyled">
+                                    <li>
+                                        CircuitExplorer is a web-based platform for exploring hypotheses about neural circuits. 
+                                        Neurobiologists often have hypotheses in mind related to neural circuits and like to filter neurons of interest in the existing databases. 
+                                        Currently, it is available for only larval zebrafish dataset.
+                                        This section provides a step-by-step introduction to the visual components of the CircuitExplorer.
+                                        <br>
+                                        <br>
+                                        To do so, please follow the steps described below:
+                                        <br>
+                                        <hr>
+                                    </li>
+                                    <li>
+                                        Restart FishExplorer by hitting the refresh button of the browser. 
+                                        This will start the  3D viewer as the default window, as shown below. 
+                                        Click the “Analysis” menu (encircled red in the image below). 
+                                        As a result, the “CircuitExplorer” button (encircled green in the image below), will appear.
+
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/circuitexplorer-start.png" class="img-fluid">
+                                        </div>
+                                        <hr>
+                                    </li>
+                                    <li>
+                                        Click the “CircuitExplorer” button.
+                                        As a result, the CircuitExplorer page, as shown in the image below, will appear
+                                        in the new tab.
+
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/circuitexplorer-main.png" class="img-fluid">
+                                        </div>
+                                        <hr>
+                                    </li>
+                                    <li>
+                                        The CircuitExplorer tool consists of three main panels (from left to right): 
+                                        <ol>
+                                            <li>
+                                                <b>Query panel:</b> Query builder
+                                            </li>
+                                            <li>
+                                                <b>Selection panel:</b> Pathway browser, Neurons browser
+                                            </li>
+                                            <li>
+                                                <b>Viewer panel:</b> Circuit viewer, 3D browser, 2D browser
+                                            </li>
+
+                                        </ol>
+                                        <br>
+                                        Each of these panels offers several tools. The one with “black backgrounds” is currently active.
+                                        <br>
+                                        <br>
+                                    </li>
+                                    <li>
+                                        <b class="list-group-item"> Tab “Query builder”</b>
+                                        The “Query builder” consists of two juxtaposed trees,
+                                        The left tree contains all components that are needed to build a circuit query.
+                                        The right tree is a representation of the nested filter query, which produces
+                                        a filtered set of neurons that realize the neural circuit (encircled green in
+                                        the image below).
+                                        The elements to build circuit query include “Set operators”, “Filter
+                                        predicates”,
+                                        “Bookmarks” and subtree “Regions” with predefined parcellations (encircled red
+                                        in the image below).
+                                        The user builds the query by dragging and dropping the elements 
+                                        from the left tree into the query tree 
+                                        (See also the detailed explanation in the tutorial, <a  target="_blank" href="circuitexplorer-example.html">“Elementary case study”</a>).
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/circuitexplorer-querybuilder.png" class="img-fluid">
+                                        </div>
+                                        <br>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <b class="list-group-item">Tab “Pathway browser”</b>
+                                        The “Pathway browser” lists all possible pathways related to the current query.
+                                        By default, all pathways are selected. 
+                                        Users can select or deselect the pathways of interest by clicking on them. 
+                                        If a set operation is selected, pathways will be enclosed by an envelope (encircled red in the image below). 
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/circuitexplorer-pathway.png" class="img-fluid">
+                                        </div>
+                                        <br>
+                                        If a set operation is collapsed, pathways will be collapsed in the "Pathways browser" 
+                                        as well as in the "Circuit viewer"(encircled red in the image below) tab.
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/circuitexplorer-pathway2.png" class="img-fluid">
+                                        </div>
+                                        <br>
+                                    </li>
+                                    <li>
+                                        <b class="list-group-item">Tab “Neurons browser”  in the middle panel </b>
+                                        <br>
+                                        The “Neurons browser” lists all the neurons filtered related to the built hypothetical neural circuit. Users can load or unload the neurons in the “3D viewer” by clicking the checkbox in front of them (encircled red in the image below) 
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/circuitexplorer-neuronbrowser.png" class="img-fluid">
+                                        </div>
+                                        <br>
+                                    </li>
+                                    <li>
+                                        <b class="list-group-item">Tab “Circuit viewer”</b>
+                                        <br>
+                                        The “Circuit viewer” provides intuitive visualization of the built neural circuit and corresponding pathways. 
+                                        It is based on the real anatomy of the zebrafish. 
+                                        We have used two nodes per brain region to distinguish between the left and right hemisphere. 
+                                        The connections between the nodes are drawn using smooth curves. 
+                                        An arrow at the end of the curve indicates the `terminates in' relation (encircled red in the image below).
+                                        <br>
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/circuitexplorer-circuitquery.png" class="img-fluid">
+                                        </div>
+                                        <br>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+            </main>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

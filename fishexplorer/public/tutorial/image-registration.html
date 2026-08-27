@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<title>FishExplorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="../scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fishexplorertutorial.css">
+<style>
+  /* Stackoverflow preview fix, please ignore */
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+  }
+
+  /* Fixes dropdown menus placed on the right side */
+  .ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+  }
+</style>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    
+      <a href="../../" class="navbar-brand"  style=" text-decoration: none;"><span class="logo_fish1">Fish</span><span
+        class="logo_fish2">Explorer</span></a>
+     
+      <div class="collapse navbar-collapse" style="float: right;" id="myNavbar">
+        <ul class="navbar-nav ml-auto">
+          
+        </ul>
+      </div>
+      <ul class="nav justify-content-end">
+
+        <li class="nav-item">
+          <a href="http://www.zib.de/impressum" target="_blank" style="color:#0B2E59" class="nav-link">Imprint</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.engertlab.org/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+              class="logo_engerts3">ENGERT</span> <span class="logo_engerts4">Lab</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.zib.de/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+              class="logo_engerts3">ZIB</span></a>
+        </li>
+      </ul>
+  </nav>
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block sidebar">
+        <div class="sidebar-sticky" style="margin-top: 20%">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="general.html">
+                <span data-feather="home"></span>
+                Getting started
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-mece.html">
+                <span data-feather="layers"></span>
+                Visualize MECE hierarchy
+              </a>
+            </li>
+            <li class="list-group-item ">
+              <a class="list-group-item list-group-item-action" href="tutorial.html">
+                <span data-feather="shopping-cart"></span>
+                Visualize 2d regions
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-3d.html">
+                <span data-feather="users"></span>
+                Visualize 3d regions
+              </a>
+            </li>
+              <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="tutorial-multi.html">
+                      Multi-channel stacks
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="tutorial-uploadmiscs.html">
+                   Upload custom miscs
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="tutorial-uploadlines.html">
+                      Upload custom lines
+                  </a>
+              </li>
+                <li class="list-group-item">
+                  <a class="list-group-item list-group-item-primary" href="image-registration.html">
+                    <span data-feather="file"></span>
+                    Image registration<span class="sr-only">(current)</span>
+                  </a>
+                </li>
+          </ul>
+
+
+        </div>
+      </nav>
+
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+          style="margin-top: 1%;">
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <h1 class="h2">Image registration</h1>
+              <!-- Image header -->
+
+              <div class="panel-body">
+                <ul class="list-unstyled">
+                  <li>
+
+                    This section provides a step-by-step guide to registering your new line or stain to the reference zebrafish brain(as shown in Figure 1) using the Advanced Normalization Tools
+                    ( <a href="https://github.com/ANTsX/ANTs">ANTs</a>). To get a high-quality mapping, you need to acquire high-quality 2-channel confocal stacks of your line.
+                     As a use case, we choose the Bahl 2-photon microscopic stack (as shown in Figure 2)
+                     and map it to the reference brain. ANTs provides a set of algorithms and metrics for the registration procedure. 
+                     It is important that you are familiar with the basics of ANTs in order to generate high-quality mappings.
+
+                    <div style="text-align:center">
+                      <figure class="figure" style="width: 80%;">
+                        <img src="images/reference0.png" class="figure-img img-fluid rounded" style="width: 80%;"
+                          alt="">
+                        <figcaption class="figure-caption text-center">Figure1: Reference zebrafish brain</figcaption>
+                      </figure>
+                    </div>
+                    <div style="text-align:center">
+                      <figure class="figure" style="width: 80%;">
+                        <img src="images/2pstack0.png" class="figure-img img-fluid rounded" style="width: 80%;" alt="">
+                        <figcaption class="figure-caption text-center">Figure2: 2P stack</figcaption>
+                      </figure>
+                    </div>
+                    <br>
+                    <br>
+                    The following describes the basics of ANTs to perform image registration:
+                  </li>
+                  <br>
+                  <li>
+                    <div class="col-sm-12">
+                      ANTs offers algorithms for linear and non-linear registration.
+                      <br>
+                      <b>Linear Registration:</b> is mainly used for the rough alignment of image data and offers the following options:
+                      <ol>
+                        <li> Translation</li>
+                        <li> Rigid transformation</li>
+                        <li> Similarity transformation</li>
+                        <li> Affine transformation</li>
+                      </ol>
+                      <b>Non-Linear Registration:</b> is used for the fine alignment of datasets and uses the SyN (Symmetric Normalization) algorithm. It is based on symmetric diffeomorphic mapping and generally takes quadratic time w.r.t. the number of voxels to perform the registration. 
+                      Three options are offered by ANTs:
+                      <ol>
+                        <li> BSpline SyN </li>
+                        <li> Geodesic SyN </li>
+                        <li> Greedy SyN (a lower cost variant of Geodesic SyN) </li>
+                      </ol>
+                      <br>
+                      <b>There is no standard algorithm that can solve all registration tasks. 
+                        Which algorithm delivers the best results depends on many characteristics of the dataset. 
+                        You should therefore try out different methods.</b>
+                      <br>
+                      <br>
+                      <b>Similarity Metrics:</b> Determining how similar the transformed input and the target data set are is a critical step in the registration process. There are several possible choices: 
+                      <ol>
+                        <li> Mutal Information(MI) </li>
+                        <li> Cross-correlation(CC)</li>
+                        <li> Probabilistic Matching (PB)</li>
+                        <li> Mean Square Distance(MSQ)</li>
+                        <li> Point-set Expectation(PSE)</li>
+                      </ol>
+                      <br>There is no fixed rule to select the metric; 
+                      it depends on characteristics of the data sets and the chosen algorithm. 
+                      Generally, Mutual Information(MI) is preferred for linear transform and Cross-correlation (CC) 
+                      for fine-scale non-linear registration steps.
+                     
+                    </div>
+                    <hr>
+                  </li>
+                  <!--
+                  <li>
+                    <div class="col-sm-12">
+                      Following is the bash script for the image registration process:
+                      <pre style="width: 90%">
+                      <code>
+                      #!/bin/bash
+                      #
+                      dim=3 # image dimensionality
+                      AP="" # /home/yourself/code/ANTS/bin/bin/  # path to ANTs binaries
+                      ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=8  # controlling multi-threading
+                      export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS
+                      f=$1 ; m=$2    # f: fixed or referenced image file  m: moving image file or unregistered volume
+                      mysetting=$3   # current settings like testing or forproduction
+                      D=$4           #/home/image_registration/ # path to output directory
+                      if [[ ! -s $f ]] ; then echo no fixed $f ; exit; fi
+                      if [[ ! -s $m ]] ; then echo no moving $m ;exit; fi
+                      if [[ ${#mysetting} -eq 0 ]] ; then
+                      echo usage is
+                      echo $0 fixed.nii.gz moving.nii.gz mysetting
+                      echo  where mysetting is either forproduction or testing
+                      exit
+                      fi
+                      nm1=` basename $f | cut -d '.' -f 1 `
+                      nm2=` basename $m | cut -d '.' -f 1 `
+                      reg=${AP}antsRegistration           # path to antsRegistration
+                      if [[ $mysetting == "testing" ]] ; then
+                        its=200x200x200
+                        percentage=0.2
+                        syn="20x20x0,1.e-8,5"
+                      else
+                        its=100x100x100
+                        percentage=0.25
+                        syn="100x100x50,1.e-8,5"
+                        mysetting=forproduction
+                      fi
+                      echo affine $m $f outname is $nm am using setting $mysetting
+                      nm=${D}${nm1}_fixed_${nm2}_moving_setting_is_${mysetting}   # construct output prefix
+                      $reg -d $dim -r [ $f, $m ,1]  \
+                                              -m mattes[  $f, $m , 1 , 32, regular, $percentage ] \
+                                               -t translation[ 0.1 ] \
+                                               -c [$its,1.e-8,20]  \
+                                              -s 4x2x1vox  \
+                                              -f 6x4x2 -l 1 \
+                                              -m mattes[  $f, $m , 1 , 32, regular, $percentage ] \
+                                               -t rigid[ 0.1 ] \
+                                               -c [$its,1.e-8,20]  \
+                                              -s 4x2x1vox  \
+                                              -f 3x2x1 -l 1 \
+                                              -m mattes[  $f, $m , 1 , 32, regular, $percentage ] \
+                                               -t affine[ 0.1 ] \
+                                               -c [$its,1.e-8,20]  \
+                                              -s 4x2x1vox  \
+                                              -f 3x2x1 -l 1 \
+                                              -m mattes[  $f, $m , 0.5 , 32 ] \
+                                              -m cc[  $f, $m , 0.5 , 4 ] \
+                                               -t SyN[ .1, 3, 0 ] \
+                                               -c [ $syn ]  \
+                                              -s 4x2x1vox  \
+                                              -f 4x2x1 -l 1 -u 1 -z 1 \
+                                             -o [${nm},${nm}_diff.nii.gz,${nm}_inv.nii.gz]
+                      
+                      ${AP}antsApplyTransforms -d $dim -i $m -r $f -n linear -t ${nm}1Warp.nii.gz -t ${nm}0GenericAffine.mat -o ${nm}_warped.nii.gz
+                      </code>
+                      </pre>
+                      <br>
+                    </div>
+                  </li>
+                  -->
+                  <li>
+
+                    The following is the list of parameters used in the above registration script 
+                    and their detailed description:
+                    <br>
+                    <br>
+                    <table class="table" style="width: 90%;">
+                      <tr>
+                        <th style="width:30%;">Parameter Name</th>
+                        <th style="width:70%;">Description</th>
+                      </tr>
+                      <tr>
+                        <td>f</td>
+                        <td>Fixed or reference brain</td>
+                      </tr>
+                      <tr>
+                        <td>m</td>
+                        <td>Moving file or unregistered volume</td>
+                      </tr>
+                      <tr>
+                        <td>t</td>
+                        <td>Transformation, e.g. rigid transformation etc.</td>
+                      </tr>
+                      <tr>
+                        <td>Iterations(its)</td>
+                        <td>Iterations per scale for affine step</td>
+                      </tr>
+                      <tr>
+                        <td>percentage</td>
+                        <td>percentage of voxels sampled for evaluating the metric</td>
+                      </tr>
+                      <tr>
+                        <td>SyN(syn)</td>
+                        <td> is used only for nonlinear transformation; 
+                          it denotes the iteration steps per sample and stopping criteria like 1e-8 or 1e-7</td>
+                      </tr>
+                      <tr>
+                        <td>Smoothing Factor(f)</td>
+                        <td>This is used for smoothing the down-sampled image with a Gaussian kernel. 
+                          This parameter is dependent on the shrinking factor.
+                           For example, if the shrinking factor is 2, then the smoothing factor will be 0.2.
+                          <br>Formula used: (shrinking factor[d] -1)*0.2. </td>
+                      </tr>
+                      <tr>
+                        <td>Shrinking Factor(s)</td>
+                        <td>is used for down-sampling an unregistered image. They are forming a kind of image pyramid
+                          for unregistered images and apply the above algorithms on
+                          each of the images in the pyramid. Shrinking factor totally depends on the size of your image
+                          stack.
+                          For example: 700x700x29 is the size of our 2P stack and 4x2x1 is the shrinking factor.
+                          It will down-sample the image by factors of 4x4x4 , 2x2x2 and 1x1x1. One should be careful in
+                          setting this parameter because
+                          it also checks length of minimum dimension i.e 29 in our case because if you downscale such a
+                          small z by a power of 8 or more. we will be left with almost nothing and a lot of resources will be
+                          wasted.
+                          It should also be a power of 2 like 2,4,8,16,32 etc. In most of the scenarios, down-sampling upto
+                          8 is enough. </td>
+                      </tr>
+                    </table>
+                    Finally, following are the slices of the registered image stack.
+                    <div style="text-align:center">
+                      <figure class="figure">
+                        <img src="images/registered.png" class="figure-img img-fluid rounded" style="width: 80%;"
+                          alt="">
+                        <figcaption class="figure-caption text-center">Figure3: Registered 2P stack</figcaption>
+                      </figure>
+                    </div>
+
+                    <hr>
+                  </li>
+                  <li>
+                    <div class="col-sm-12">
+                      Now, imagine that you want to do the inverse mapping, i.e. take any mapped stack of the 
+                      reference brain, or an empty stack with the Randlet masks and convert it to your stack, 
+                      e.g. 2-photon microscopic stack stack and overlay. This way you can instantly visualize the 
+                      identity of neurotransmitters and brain regions along with the planer neural activity. 
+                      Below you can see an example stack, where we used the inverted mapping to map the FishExplorer 
+                      vglut stack as well as the FishExplorer gadb1 stack to the 2-photon microscopic stack. 
+                      This registration reveals the pattern of excitatory and inhibitory cells within each imaged plane, as shown below.
+                      <br>
+                      Finally, following are the slices of the registered image stack.
+                      <br>
+                      <br>
+                      <div style="text-align:center">
+                        <figure class="figure">
+                          <img src="images/composite-mapping.png" class="figure-img img-fluid rounded"
+                            style="width: 80%;" alt="">
+                        </figure>
+                      </div>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+      </main>
+    </div>
+  </div>
+
+</body>
+
+</html>

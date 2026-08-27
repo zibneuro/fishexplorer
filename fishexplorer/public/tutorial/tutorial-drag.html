@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<title>Vis Explorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+</style>
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3 class="w3-wide"><b>Tutorial</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+     <a href="general.html" class="w3-bar-item w3-button">General Remarks</a>
+     <a href="image-registration.html" class="w3-bar-item w3-button">Image Registration</a>
+    <a href="tutorial.html" class="w3-bar-item w3-button">Visualize 2D Regions</a>
+    <a href="tutorial-3d.html" class="w3-bar-item w3-button">Visualize 3D Regions</a>
+    <a href="tutorial-drag.html" class="w3-button w3-block w3-white w3-left-align">Drag and Drop 3D Regions</a>
+    <a href="tutorial-mece.html" class="w3-bar-item w3-button" >Visualize MECE Hierarchy  </a>
+    <a href="tutorial-cell.html" class="w3-bar-item w3-button">Visualize Directional Cells </a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">LOGO</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left">Drag and Drop 3D Regions</p>
+   
+  </header> 
+Biologists often want to compare several anatomical regions. For this it is important that the user is able to move the region to a 
+user-specific location and then move it back to the original location (once comparison is done). This tutorial provides a 
+step-by-step guide for the dragging and collapsing of anatomical regions in the 3D viewer.As use case we choose the regions 
+<i>Diencephalon</i>, <i>Diencephalon - Anterior preoptic dopaminergic cluster</i> and <i>Diencephalon - Caudal Hypothalamus</i>.
+<br>
+<br>
+To perform such a comparison, follow the steps below:
+
+  <!-- Image header -->
+  <ul class="w3-ul">
+ <li> First, we load anatomical regions in the 3D viewer as shown below. Please go through the <a href="tutorial-3d.html">Visualize 3D Regions</a> 
+ tutorial if you don’t know how to load anatomical regions in the 3D viewer.
+ <div class="w3-display-container w3-container" style="padding:24px 48px">
+    <img src="images/drag-region.png" style="width:100%" >
+    <!-- <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
+      <h1 class="w3-jumbo w3-hide-small">New arrivals</h1>
+      <h1 class="w3-hide-large w3-hide-medium">New arrivals</h1>
+      <h1 class="w3-hide-small">COLLECTION 2016</h1>
+      <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
+    </div> -->
+  </div><br></li>
+  <li>
+In order to enable dragging functionality, press the button (encircled red in the image above). The button will turn to green. Once dragging is enabled, 
+you can select the object for dragging, e.g. the <i>Diencephalon</i>, in the 3D-Viewer by clicking the object. Then a rectangular box will appear around the
+ selected region as shown below. You can then drag the object to any location of your choice in the viewer. In the image below, we dragged the Diencephalon 
+ to the left of the slice.
+  <div class="w3-display-container w3-container" style="padding:24px 48px">
+    <img src="images/dragged-one.png" style="width:100%" >
+	</div><br>
+  </li>
+  
+  <li> Similarly, all other anatomical regions e.g <i>Diencephalon - Anterior preoptic dopaminergic cluster</i> and <i>Diencephalon - Caudal Hypothalamus</i>
+  are dragged to right of slice as shown below.
+   <div class="w3-display-container w3-container" style="padding:24px 48px">
+    <img src="images/dragged-two.png" style="width:100%">
+	</div><br>
+  </li>
+  <li>Now we want to move them back to their original locations. This is achieved by clicking the “collapse button”, encircled red in the image below.
+ 
+   <div class="w3-display-container w3-container" style="padding:24px 48px">
+    <img src="images/collapsed.png" style="width:100%">
+	</div>
+  </li>
+  </ul>
+
+
+  <div class="w3-black w3-center w3-padding-16">Powered by <a href="" title="Visexplorer" target="_blank" class="w3-hover-opacity">Visexplorer</a></div>
+
+  <!-- End page content -->
+</div>
+
+
+<script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<title>FishExplorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="../scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fishexplorertutorial.css">
+<style>
+    /* Stackoverflow preview fix, please ignore */
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .nav-link {
+        padding-right: .5rem !important;
+        padding-left: .5rem !important;
+    }
+
+    /* Fixes dropdown menus placed on the right side */
+    .ml-auto .dropdown-menu {
+        left: auto !important;
+        right: 0px;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+        <a href="../../" class="navbar-brand" style=" text-decoration: none;"><span class="logo_fish1">Fish</span><span
+                class="logo_fish2">Explorer</span></a>
+
+        <div class="collapse navbar-collapse" style="float: right;" id="myNavbar">
+            <ul class="navbar-nav ml-auto">
+
+            </ul>
+        </div>
+        <ul class="nav justify-content-end">
+
+            <li class="nav-item">
+                <a href="http://www.zib.de/impressum" target="_blank" style="color:#0B2E59" class="nav-link">Imprint</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.engertlab.org/" target="_blank"
+                    style="padding: 5px 2px 2px 2px;"><span class="logo_engerts3">ENGERT</span> <span
+                        class="logo_engerts4">Lab</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.zib.de/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+                        class="logo_engerts3">ZIB</span></a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block  sidebar">
+                <div class="sidebar-sticky" style="margin-top: 20%">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-action" href="general.html">
+                                <span data-feather="home"></span>
+                                Getting started
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-action" href="tutorial-mece.html">
+                                <span data-feather="layers"></span>
+                                Visualize MECE hierarchy
+                            </a>
+                        </li>
+                        <li class="list-group-item ">
+                            <a class="list-group-item list-group-item-action" href="tutorial.html">
+                                <span data-feather="shopping-cart"></span>
+                                Visualize 2D regions
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-action" href="tutorial-3d.html">
+                                <span data-feather="users"></span>
+                                Visualize 3D regions
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-action" href="tutorial-multi.html">
+                                Multi-channel stacks
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-primary" href="tutorial-uploadmiscs.html">
+                                Upload custom miscs<span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-action" href="tutorial-uploadlines.html">
+                                Upload custom lines
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-action" href="image-registration.html">
+                                <span data-feather="file"></span>
+                                Image registration
+                            </a>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </nav>
+
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+                    style="margin-top: 1%">
+
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <h1 class="h2">Uploading miscellaneous regions </h1>
+                            <!-- Image header -->
+
+                            <div class="panel-body">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        Neurobiologists are able to segment their custom region masks based on anatomy, genetic and functional properties. We call such region masks “miscellaneous (MISC) masks”. Let us assume that
+                                        you want to compare your custom labeled masks with region masks that are already in the database.  
+                                        <br>
+                                        To do so, please follow the steps described below:
+                                        <br>
+                                        <br>
+                                        Restart FishExplorer by hitting the refresh button of the browser. 
+                                        Then, the sign-in button will appear, as shown in the image below. 
+                                        If you are a first time user, please read the <a target="_blank" href="general.html">general settings tutorial</a> in order to know how to register and login.
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/signin.png" class="img-fluid">
+                                        </div>
+                                        <br>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        After signing in, an upload button (here, highlighted in red) will appear on the screen, as shown in the image below.  
+                                        <br>
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/upload-main.png" class="img-fluid">
+                                        </div>
+                                        <hr>
+                                    </li>
+                                    <li>
+                                        Click the “upload” button (highlighted in red in the image above) on the top menu bar. 
+                                        This will bring up an upload window like the one shown in the image below.
+                                        The window consists of a selection list “Upload types”, 
+                                        two uploading buttons (“Lines” and “Custom misc masks”), and a jobs table. 
+                                        <br>
+                                        The “Upload types” allows the user to pick up either “Lines” and “Custom misc masks”. 
+                                        The “Lines” and “Custom misc masks” buttons allow users to upload custom markers and regions respectively. 
+                                        The jobs table displays the list of “submitted”, “finished” and “failed” jobs. 
+
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/upload-page.png" class="img-fluid" style="max-width: 90%;">
+                                        </div><br>
+                                    </li>
+                                    <li>
+                                        Click the “Load dataset” button next to the label “Misc regions” (highlighted in red in the 
+                                        image above). Then select a “.zip” compressed tiff file. Make sure that the name of the tiff 
+                                        file and the zip file are the same. The compressed “.zip” should also be less than 500 MB.
+                                        Currently we do not support multiple tiffs in a “.zip” file, 
+                                        so users should make sure that there is only one tiff file in a zip. 
+                                        The percentage of files uploaded will be displayed (as highlighted in red in the image below).                                        .
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/misc_uploading.png" class="img-fluid" style="max-width: 90%;">
+                                        </div>
+                                        <br>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        Once the file has been successfully uploaded, the new job will be listed in a jobs 
+                                        table with the name of the file and the message “File submitted successfully” (as shown in the image above). 
+                                        Generally, the uploaded file will be processed in 3-5 minutes.
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/misc_submitted.png" class="img-fluid" style="max-width: 90%;">
+                                        </div>
+                                        <br>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        Once the file has been successfully processed, the corresponding job is updated in the jobs table 
+                                        by setting the status to “Finished” and displaying the message “File processed successfully” (highlighted in red in the image below). 
+                                        If processing fails, the corresponding entry in the jobs table is updated by setting the 
+                                        status to “Failed” and displaying an error message.
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/upload-successfull.png" class="img-fluid" style="max-width: 90%;">
+                                        </div>
+                                        <br>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        The successfully processed misc mask will be added to the “Custom misc” tab (highlighted in green in the image below). 
+                                        The “Custom misc” tab is a sub-tab under the “Brain regions” tab.
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/upload-custom-misc.png" class="img-fluid">
+                                        </div>
+                                        <br>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>

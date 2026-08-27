@@ -1,0 +1,1545 @@
+[ {
+  "id" : "0",
+  "name" : "Reference-Brain",
+  "url" : "datasets/Reference-Brain/",
+  "metadata" : [ ]
+}, {
+  "id" : "1",
+  "name" : "6.7FRhcrtR-Gal4-uasKaede",
+  "url" : "datasets/6.7FRhcrtR-Gal4-uasKaede/",
+  "metadata" : [ ]
+}, {
+  "id" : "2",
+  "name" : "Anti-5HT",
+  "url" : "datasets/Anti-5HT/",
+  "metadata" : [ ]
+}, {
+  "id" : "3",
+  "name" : "Anti-Gad67",
+  "url" : "datasets/Anti-Gad67/",
+  "metadata" : [ ]
+}, {
+  "id" : "4",
+  "name" : "Anti-GlyR",
+  "url" : "datasets/Anti-GlyR/",
+  "metadata" : [ ]
+}, {
+  "id" : "5",
+  "name" : "Anti-TH",
+  "url" : "datasets/Anti-TH/",
+  "metadata" : [ ]
+}, {
+  "id" : "6",
+  "name" : "Anti-Zn1",
+  "url" : "datasets/Anti-Zn1/",
+  "metadata" : [ ]
+}, {
+  "id" : "7",
+  "name" : "Anti-Zn12(Hnk-1)",
+  "url" : "datasets/Anti-Zn12(Hnk-1)/",
+  "metadata" : [ ]
+}, {
+  "id" : "8",
+  "name" : "Anti-Znp1(Synaptotagmin2)",
+  "url" : "datasets/Anti-Znp1(Synaptotagmin2)/",
+  "metadata" : [ ]
+}, {
+  "id" : "9",
+  "name" : "Anti-Zrf1(GFAP)",
+  "url" : "datasets/Anti-Zrf1(GFAP)/",
+  "metadata" : [ ]
+}, {
+  "id" : "10",
+  "name" : "Anti-Zrf2",
+  "url" : "datasets/Anti-Zrf2/",
+  "metadata" : [ ]
+}, {
+  "id" : "11",
+  "name" : "Anti-tERK",
+  "url" : "datasets/Anti-tERK/",
+  "metadata" : [ ]
+}, {
+  "id" : "12",
+  "name" : "Elavl3-GCaMP5G",
+  "url" : "datasets/Elavl3-GCaMP5G/",
+  "metadata" : [ ]
+}, {
+  "id" : "13",
+  "name" : "MH_20641-Gal4",
+  "url" : "datasets/MH_20641-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "14",
+  "name" : "Elavl3-H2BRFP",
+  "url" : "datasets/Elavl3-H2BRFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "15",
+  "name" : "MH_20653-Gal4",
+  "url" : "datasets/MH_20653-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "16",
+  "name" : "EtVmat2-GFP",
+  "url" : "datasets/EtVmat2-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "17",
+  "name" : "MH_20654-Gal4",
+  "url" : "datasets/MH_20654-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "18",
+  "name" : "Gad1b-GFP",
+  "url" : "datasets/Gad1b-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "19",
+  "name" : "MH_20655-Gal4",
+  "url" : "datasets/MH_20655-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "20",
+  "name" : "Glyt2-GFP",
+  "url" : "datasets/Glyt2-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "21",
+  "name" : "MH_20660-Gal4",
+  "url" : "datasets/MH_20660-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "22",
+  "name" : "Hcrt-RFP",
+  "url" : "datasets/Hcrt-RFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "23",
+  "name" : "MH_20661-Gal4",
+  "url" : "datasets/MH_20661-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "24",
+  "name" : "Isl1-GFP",
+  "url" : "datasets/Isl1-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "25",
+  "name" : "MH_20454-Gal4",
+  "url" : "datasets/MH_20454-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "26",
+  "name" : "Isl2bGal4-uasDendra",
+  "url" : "datasets/Isl2bGal4-uasDendra/",
+  "metadata" : [ ]
+}, {
+  "id" : "27",
+  "name" : "MH_20663-Gal4",
+  "url" : "datasets/MH_20663-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "28",
+  "name" : "Olig2-GFP",
+  "url" : "datasets/Olig2-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "29",
+  "name" : "MH_20552-Gal4",
+  "url" : "datasets/MH_20552-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "30",
+  "name" : "Otpb.A-Gal4-UAS-GCaMP",
+  "url" : "datasets/Otpb.A-Gal4-UAS-GCaMP/",
+  "metadata" : [ ]
+}, {
+  "id" : "31",
+  "name" : "MH_20553-Gal4",
+  "url" : "datasets/MH_20553-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "32",
+  "name" : "Otpb.A-Nsfb-GFP",
+  "url" : "datasets/Otpb.A-Nsfb-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "33",
+  "name" : "MH_20940-Gal4",
+  "url" : "datasets/MH_20940-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "34",
+  "name" : "Oxtl-GFP",
+  "url" : "datasets/Oxtl-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "35",
+  "name" : "MH_20941-Gal4",
+  "url" : "datasets/MH_20941-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "36",
+  "name" : "Pet1-GFP",
+  "url" : "datasets/Pet1-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "37",
+  "name" : "MH_20638-Gal4",
+  "url" : "datasets/MH_20638-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "38",
+  "name" : "Ptf1aGal4-uasKaede",
+  "url" : "datasets/Ptf1aGal4-uasKaede/",
+  "metadata" : [ ]
+}, {
+  "id" : "39",
+  "name" : "ZBB_HuC-Cer",
+  "url" : "datasets/ZBB_HuC-Cer/",
+  "metadata" : [ ]
+}, {
+  "id" : "40",
+  "name" : "Qrfp-GFP",
+  "url" : "datasets/Qrfp-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "41",
+  "name" : "MH_20639-Gal4",
+  "url" : "datasets/MH_20639-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "42",
+  "name" : "S1181tGal4-uasKaede",
+  "url" : "datasets/S1181tGal4-uasKaede/",
+  "metadata" : [ ]
+}, {
+  "id" : "43",
+  "name" : "MH_20652-Gal4",
+  "url" : "datasets/MH_20652-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "44",
+  "name" : "SpinalBackfills",
+  "url" : "datasets/SpinalBackfills/",
+  "metadata" : [ ]
+}, {
+  "id" : "45",
+  "name" : "ZBB_ath5-GFP",
+  "url" : "datasets/ZBB_ath5-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "46",
+  "name" : "Vglut2a-GFP",
+  "url" : "datasets/Vglut2a-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "47",
+  "name" : "ZBB_bActin-GFP",
+  "url" : "datasets/ZBB_bActin-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "48",
+  "name" : "MH_13319-Gal4",
+  "url" : "datasets/MH_13319-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "49",
+  "name" : "ZBB_ba2_sox10-GFP",
+  "url" : "datasets/ZBB_ba2_sox10-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "50",
+  "name" : "MH_15576-Gal4",
+  "url" : "datasets/MH_15576-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "51",
+  "name" : "ZBB_chx10-gal4",
+  "url" : "datasets/ZBB_chx10-gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "52",
+  "name" : "MH_16659-Gal4",
+  "url" : "datasets/MH_16659-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "53",
+  "name" : "ZBB_dat-GFP",
+  "url" : "datasets/ZBB_dat-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "54",
+  "name" : "MH_16715-Gal4",
+  "url" : "datasets/MH_16715-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "55",
+  "name" : "ZBB_dbh-Gal4",
+  "url" : "datasets/ZBB_dbh-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "56",
+  "name" : "MH_16913-Gal4",
+  "url" : "datasets/MH_16913-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "57",
+  "name" : "ZBB_eng1b-Gal4",
+  "url" : "datasets/ZBB_eng1b-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "58",
+  "name" : "MH_16914-Gal4",
+  "url" : "datasets/MH_16914-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "59",
+  "name" : "ZBB_evx2-Gal4",
+  "url" : "datasets/ZBB_evx2-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "60",
+  "name" : "MH_16915-Gal4",
+  "url" : "datasets/MH_16915-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "61",
+  "name" : "ZBB_flk-GFP",
+  "url" : "datasets/ZBB_flk-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "62",
+  "name" : "MH_16916-Gal4",
+  "url" : "datasets/MH_16916-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "63",
+  "name" : "ZBB_gad1b-GFP",
+  "url" : "datasets/ZBB_gad1b-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "64",
+  "name" : "MH_16946-Gal4",
+  "url" : "datasets/MH_16946-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "65",
+  "name" : "ZBB_gfap-GFP",
+  "url" : "datasets/ZBB_gfap-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "66",
+  "name" : "MH_17056-Gal4",
+  "url" : "datasets/MH_17056-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "67",
+  "name" : "ZBB_glyt2-GFP",
+  "url" : "datasets/ZBB_glyt2-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "68",
+  "name" : "MH_17767-Gal4",
+  "url" : "datasets/MH_17767-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "69",
+  "name" : "ZBB_gsx1-GFP",
+  "url" : "datasets/ZBB_gsx1-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "70",
+  "name" : "MH_17768-Gal4",
+  "url" : "datasets/MH_17768-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "71",
+  "name" : "ZBB_isl2b-GFP",
+  "url" : "datasets/ZBB_isl2b-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "72",
+  "name" : "MH_17776-Gal4",
+  "url" : "datasets/MH_17776-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "73",
+  "name" : "ZBB_j1229-GFP",
+  "url" : "datasets/ZBB_j1229-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "74",
+  "name" : "MH_17777-Gal4",
+  "url" : "datasets/MH_17777-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "75",
+  "name" : "ZBB_jf9_huC-CaMPARI",
+  "url" : "datasets/ZBB_jf9_huC-CaMPARI/",
+  "metadata" : [ ]
+}, {
+  "id" : "76",
+  "name" : "MH_17787-Gal4",
+  "url" : "datasets/MH_17787-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "77",
+  "name" : "ZBB_m1233_th-Gal4",
+  "url" : "datasets/ZBB_m1233_th-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "78",
+  "name" : "MH_17845-Gal4",
+  "url" : "datasets/MH_17845-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "79",
+  "name" : "ZBB_ml2_mnx1-GFP",
+  "url" : "datasets/ZBB_ml2_mnx1-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "80",
+  "name" : "MH_17846-Gal4",
+  "url" : "datasets/MH_17846-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "81",
+  "name" : "ZBB_nl1_neurod-GFP",
+  "url" : "datasets/ZBB_nl1_neurod-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "82",
+  "name" : "MH_18107-Gal4",
+  "url" : "datasets/MH_18107-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "83",
+  "name" : "ZBB_pet1-GFP",
+  "url" : "datasets/ZBB_pet1-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "84",
+  "name" : "MH_18108-Gal4",
+  "url" : "datasets/MH_18108-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "85",
+  "name" : "ZBB_s1156t-Gal4",
+  "url" : "datasets/ZBB_s1156t-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "86",
+  "name" : "MH_18327-Gal4",
+  "url" : "datasets/MH_18327-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "87",
+  "name" : "ZBB_sb1_neurog1-GFP",
+  "url" : "datasets/ZBB_sb1_neurog1-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "88",
+  "name" : "MH_18329-Gal4",
+  "url" : "datasets/MH_18329-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "89",
+  "name" : "ZBB_shox2-Gal4",
+  "url" : "datasets/ZBB_shox2-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "90",
+  "name" : "MH_19322-Gal4",
+  "url" : "datasets/MH_19322-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "91",
+  "name" : "ZBB_sd2_gata1-dsRed",
+  "url" : "datasets/ZBB_sd2_gata1-dsRed/",
+  "metadata" : [ ]
+}, {
+  "id" : "92",
+  "name" : "MH_19566-Gal4",
+  "url" : "datasets/MH_19566-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "93",
+  "name" : "ZBB_y227-ntr-mCh",
+  "url" : "datasets/ZBB_y227-ntr-mCh/",
+  "metadata" : [ ]
+}, {
+  "id" : "94",
+  "name" : "MH_20360-Gal4",
+  "url" : "datasets/MH_20360-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "95",
+  "name" : "ZBB_tph2-Gal4",
+  "url" : "datasets/ZBB_tph2-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "96",
+  "name" : "MH_20361-Gal4",
+  "url" : "datasets/MH_20361-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "97",
+  "name" : "MH_20640-Gal4",
+  "url" : "datasets/MH_20640-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "98",
+  "name" : "MH_20642-Gal4",
+  "url" : "datasets/MH_20642-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "99",
+  "name" : "ZBB_s356t_brn3c-GFP",
+  "url" : "datasets/ZBB_s356t_brn3c-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "100",
+  "name" : "MH_20643-Gal4",
+  "url" : "datasets/MH_20643-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "101",
+  "name" : "ZBB_vglut-DsRed",
+  "url" : "datasets/ZBB_vglut-DsRed/",
+  "metadata" : [ ]
+}, {
+  "id" : "102",
+  "name" : "MH_20644-Gal4",
+  "url" : "datasets/MH_20644-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "103",
+  "name" : "ZBB_y226_tph2-ntr-mCh",
+  "url" : "datasets/ZBB_y226_tph2-ntr-mCh/",
+  "metadata" : [ ]
+}, {
+  "id" : "104",
+  "name" : "MH_20646-Gal4",
+  "url" : "datasets/MH_20646-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "105",
+  "name" : "ZBB_y236-Gal4",
+  "url" : "datasets/ZBB_y236-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "106",
+  "name" : "MH_20647-Gal4",
+  "url" : "datasets/MH_20647-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "107",
+  "name" : "ZBB_y234-Gal4",
+  "url" : "datasets/ZBB_y234-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "108",
+  "name" : "MH_20648-Gal4",
+  "url" : "datasets/MH_20648-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "109",
+  "name" : "ZBB_y345-Gal4",
+  "url" : "datasets/ZBB_y345-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "110",
+  "name" : "MH_20649-Gal4",
+  "url" : "datasets/MH_20649-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "111",
+  "name" : "ZBB_phox2b-GFP",
+  "url" : "datasets/ZBB_phox2b-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "112",
+  "name" : "ZBB_y327-Gal4",
+  "url" : "datasets/ZBB_y327-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "113",
+  "name" : "ZBB_y237-Gal4",
+  "url" : "datasets/ZBB_y237-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "114",
+  "name" : "ZBB_y240-Gal4",
+  "url" : "datasets/ZBB_y240-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "115",
+  "name" : "ZBB_y241-Gal4",
+  "url" : "datasets/ZBB_y241-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "116",
+  "name" : "ZBB_y242-Gal4",
+  "url" : "datasets/ZBB_y242-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "117",
+  "name" : "ZBB_y244-Gal4",
+  "url" : "datasets/ZBB_y244-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "118",
+  "name" : "ZBB_y245-Gal4",
+  "url" : "datasets/ZBB_y245-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "119",
+  "name" : "ZBB_y249-Gal4",
+  "url" : "datasets/ZBB_y249-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "120",
+  "name" : "ZBB_y252-Gal4",
+  "url" : "datasets/ZBB_y252-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "121",
+  "name" : "ZBB_y255-Gal4",
+  "url" : "datasets/ZBB_y255-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "122",
+  "name" : "ZBB_y256-Gal4",
+  "url" : "datasets/ZBB_y256-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "123",
+  "name" : "ZBB_y264-Gal4",
+  "url" : "datasets/ZBB_y264-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "124",
+  "name" : "ZBB_y265-Gal4",
+  "url" : "datasets/ZBB_y265-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "125",
+  "name" : "ZBB_y269-Gal4",
+  "url" : "datasets/ZBB_y269-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "126",
+  "name" : "ZBB_y270-Gal4",
+  "url" : "datasets/ZBB_y270-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "127",
+  "name" : "ZBB_y271-Gal4",
+  "url" : "datasets/ZBB_y271-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "128",
+  "name" : "ZBB_y274-Gal4",
+  "url" : "datasets/ZBB_y274-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "129",
+  "name" : "ZBB_y275-Gal4",
+  "url" : "datasets/ZBB_y275-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "130",
+  "name" : "ZBB_y279-Gal4",
+  "url" : "datasets/ZBB_y279-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "131",
+  "name" : "ZBB_y293-Gal4",
+  "url" : "datasets/ZBB_y293-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "132",
+  "name" : "ZBB_y294-Gal4",
+  "url" : "datasets/ZBB_y294-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "133",
+  "name" : "ZBB_y295-Gal4",
+  "url" : "datasets/ZBB_y295-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "134",
+  "name" : "ZBB_y296-Gal4",
+  "url" : "datasets/ZBB_y296-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "135",
+  "name" : "ZBB_y297-Gal4",
+  "url" : "datasets/ZBB_y297-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "136",
+  "name" : "ZBB_y298-Gal4",
+  "url" : "datasets/ZBB_y298-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "137",
+  "name" : "ZBB_y299-Gal4",
+  "url" : "datasets/ZBB_y299-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "138",
+  "name" : "ZBB_y300-Gal4",
+  "url" : "datasets/ZBB_y300-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "139",
+  "name" : "ZBB_y301-Gal4",
+  "url" : "datasets/ZBB_y301-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "140",
+  "name" : "ZBB_y302-Gal4",
+  "url" : "datasets/ZBB_y302-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "141",
+  "name" : "ZBB_y303-Gal4",
+  "url" : "datasets/ZBB_y303-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "142",
+  "name" : "ZBB_y304-Gal4",
+  "url" : "datasets/ZBB_y304-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "143",
+  "name" : "ZBB_y305-Gal4",
+  "url" : "datasets/ZBB_y305-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "144",
+  "name" : "ZBB_y306-Gal4",
+  "url" : "datasets/ZBB_y306-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "145",
+  "name" : "ZBB_y307-Gal4",
+  "url" : "datasets/ZBB_y307-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "146",
+  "name" : "ZBB_y308-Gal4",
+  "url" : "datasets/ZBB_y308-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "147",
+  "name" : "ZBB_y309-Gal4",
+  "url" : "datasets/ZBB_y309-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "148",
+  "name" : "ZBB_y310-Gal4",
+  "url" : "datasets/ZBB_y310-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "149",
+  "name" : "ZBB_y311-Gal4",
+  "url" : "datasets/ZBB_y311-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "150",
+  "name" : "ZBB_y312-Gal4",
+  "url" : "datasets/ZBB_y312-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "151",
+  "name" : "ZBB_y313-Gal4",
+  "url" : "datasets/ZBB_y313-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "152",
+  "name" : "ZBB_y314-Gal4",
+  "url" : "datasets/ZBB_y314-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "153",
+  "name" : "ZBB_y315-Gal4",
+  "url" : "datasets/ZBB_y315-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "154",
+  "name" : "ZBB_y316-Gal4",
+  "url" : "datasets/ZBB_y316-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "155",
+  "name" : "ZBB_y317-Gal4",
+  "url" : "datasets/ZBB_y317-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "156",
+  "name" : "ZBB_y318-Gal4",
+  "url" : "datasets/ZBB_y318-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "157",
+  "name" : "ZBB_y319-Gal4",
+  "url" : "datasets/ZBB_y319-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "158",
+  "name" : "ZBB_y320-Gal4",
+  "url" : "datasets/ZBB_y320-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "159",
+  "name" : "ZBB_y321-Gal4",
+  "url" : "datasets/ZBB_y321-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "160",
+  "name" : "ZBB_y322-Gal4",
+  "url" : "datasets/ZBB_y322-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "161",
+  "name" : "ZBB_y323-Gal4",
+  "url" : "datasets/ZBB_y323-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "162",
+  "name" : "ZBB_y324-Gal4",
+  "url" : "datasets/ZBB_y324-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "163",
+  "name" : "ZBB_y325-Gal4",
+  "url" : "datasets/ZBB_y325-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "164",
+  "name" : "ZBB_y326-Gal4",
+  "url" : "datasets/ZBB_y326-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "165",
+  "name" : "ZBB_y328-Gal4",
+  "url" : "datasets/ZBB_y328-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "166",
+  "name" : "ZBB_y329-Gal4",
+  "url" : "datasets/ZBB_y329-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "167",
+  "name" : "ZBB_y330-Gal4",
+  "url" : "datasets/ZBB_y330-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "168",
+  "name" : "ZBB_y331-Gal4",
+  "url" : "datasets/ZBB_y331-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "169",
+  "name" : "ZBB_y332-Gal4",
+  "url" : "datasets/ZBB_y332-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "170",
+  "name" : "ZBB_y333-Gal4",
+  "url" : "datasets/ZBB_y333-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "171",
+  "name" : "ZBB_y334-Gal4",
+  "url" : "datasets/ZBB_y334-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "172",
+  "name" : "ZBB_y336-Gal4",
+  "url" : "datasets/ZBB_y336-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "173",
+  "name" : "ZBB_y337-Gal4",
+  "url" : "datasets/ZBB_y337-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "174",
+  "name" : "ZBB_y338-Gal4",
+  "url" : "datasets/ZBB_y338-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "175",
+  "name" : "ZBB_y339-Gal4",
+  "url" : "datasets/ZBB_y339-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "176",
+  "name" : "ZBB_y341-Gal4",
+  "url" : "datasets/ZBB_y341-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "177",
+  "name" : "ZBB_y387-Gal4",
+  "url" : "datasets/ZBB_y387-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "178",
+  "name" : "ZBB_y342-Gal4",
+  "url" : "datasets/ZBB_y342-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "179",
+  "name" : "ZBB_y388-Gal4",
+  "url" : "datasets/ZBB_y388-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "180",
+  "name" : "ZBB_y348-Gal4",
+  "url" : "datasets/ZBB_y348-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "181",
+  "name" : "ZBB_y393-Gal4",
+  "url" : "datasets/ZBB_y393-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "182",
+  "name" : "ZBB_y350-Gal4",
+  "url" : "datasets/ZBB_y350-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "183",
+  "name" : "ZBB_y394-Gal4",
+  "url" : "datasets/ZBB_y394-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "184",
+  "name" : "ZBB_y351-Gal4",
+  "url" : "datasets/ZBB_y351-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "185",
+  "name" : "ZBB_y396-Gal4",
+  "url" : "datasets/ZBB_y396-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "186",
+  "name" : "ZBB_y352-Gal4",
+  "url" : "datasets/ZBB_y352-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "187",
+  "name" : "ZBB_y397-Gal4",
+  "url" : "datasets/ZBB_y397-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "188",
+  "name" : "ZBB_y353-Gal4",
+  "url" : "datasets/ZBB_y353-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "189",
+  "name" : "ZBB_y401-Gal4",
+  "url" : "datasets/ZBB_y401-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "190",
+  "name" : "ZBB_y354-Gal4",
+  "url" : "datasets/ZBB_y354-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "191",
+  "name" : "ZBB_y405-Gal4",
+  "url" : "datasets/ZBB_y405-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "192",
+  "name" : "ZBB_y355-Gal4",
+  "url" : "datasets/ZBB_y355-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "193",
+  "name" : "ZBB_y407-Gal4",
+  "url" : "datasets/ZBB_y407-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "194",
+  "name" : "ZBB_y356-Gal4",
+  "url" : "datasets/ZBB_y356-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "195",
+  "name" : "ZBB_y412-Gal4",
+  "url" : "datasets/ZBB_y412-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "196",
+  "name" : "ZBB_y357-Gal4",
+  "url" : "datasets/ZBB_y357-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "197",
+  "name" : "ZBB_y416-Gal4",
+  "url" : "datasets/ZBB_y416-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "198",
+  "name" : "ZBB_y358-Gal4",
+  "url" : "datasets/ZBB_y358-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "199",
+  "name" : "ZBB_y417-Gal4",
+  "url" : "datasets/ZBB_y417-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "200",
+  "name" : "ZBB_y359-Gal4",
+  "url" : "datasets/ZBB_y359-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "201",
+  "name" : "ZBB_y420-Gal4",
+  "url" : "datasets/ZBB_y420-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "202",
+  "name" : "ZBB_y364-Gal4",
+  "url" : "datasets/ZBB_y364-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "203",
+  "name" : "ZBB_y421-Gal4",
+  "url" : "datasets/ZBB_y421-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "204",
+  "name" : "ZBB_y365-Gal4",
+  "url" : "datasets/ZBB_y365-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "205",
+  "name" : "ZBB_y423-Gal4",
+  "url" : "datasets/ZBB_y423-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "206",
+  "name" : "ZBB_y371-Cre",
+  "url" : "datasets/ZBB_y371-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "207",
+  "name" : "ZBB_y425-Gal4",
+  "url" : "datasets/ZBB_y425-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "208",
+  "name" : "ZBB_y372-Gal4",
+  "url" : "datasets/ZBB_y372-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "209",
+  "name" : "ZBB_y433-Gal4",
+  "url" : "datasets/ZBB_y433-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "210",
+  "name" : "ZBB_y373-Gal4",
+  "url" : "datasets/ZBB_y373-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "211",
+  "name" : "ZBB_y436-Gal4",
+  "url" : "datasets/ZBB_y436-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "212",
+  "name" : "ZBB_y375-Gal4",
+  "url" : "datasets/ZBB_y375-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "213",
+  "name" : "ZBB_y441-Gal4",
+  "url" : "datasets/ZBB_y441-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "214",
+  "name" : "ZBB_y378-Cre",
+  "url" : "datasets/ZBB_y378-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "215",
+  "name" : "ZBB_y444-Gal4",
+  "url" : "datasets/ZBB_y444-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "216",
+  "name" : "ZBB_y379-Cre",
+  "url" : "datasets/ZBB_y379-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "217",
+  "name" : "ZBB_y445-Cre",
+  "url" : "datasets/ZBB_y445-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "218",
+  "name" : "ZBB_y380-Cre",
+  "url" : "datasets/ZBB_y380-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "219",
+  "name" : "ZBB_y446-ntr-mCh",
+  "url" : "datasets/ZBB_y446-ntr-mCh/",
+  "metadata" : [ ]
+}, {
+  "id" : "220",
+  "name" : "ZBB_y381-Cre",
+  "url" : "datasets/ZBB_y381-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "221",
+  "name" : "ZBB_y454_R3-eltC-Cre",
+  "url" : "datasets/ZBB_y454_R3-eltC-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "222",
+  "name" : "ZBB_y382-Cre",
+  "url" : "datasets/ZBB_y382-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "223",
+  "name" : "ZBB_y455_R5-dr16-Cre",
+  "url" : "datasets/ZBB_y455_R5-dr16-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "224",
+  "name" : "ZBB_y383-Cre",
+  "url" : "datasets/ZBB_y383-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "225",
+  "name" : "ZBB_y456-Cre",
+  "url" : "datasets/ZBB_y456-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "226",
+  "name" : "ZBB_y384-Cre",
+  "url" : "datasets/ZBB_y384-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "227",
+  "name" : "ZBB_y457-Cre",
+  "url" : "datasets/ZBB_y457-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "228",
+  "name" : "ZBB_y385-Cre",
+  "url" : "datasets/ZBB_y385-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "229",
+  "name" : "ZBB_y460-ntr-mCh",
+  "url" : "datasets/ZBB_y460-ntr-mCh/",
+  "metadata" : [ ]
+}, {
+  "id" : "230",
+  "name" : "ZBB_y458-Cre",
+  "url" : "datasets/ZBB_y458-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "231",
+  "name" : "ZBB_y459-Cre",
+  "url" : "datasets/ZBB_y459-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "232",
+  "name" : "ZBB_y551-Cre",
+  "url" : "datasets/ZBB_y551-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "233",
+  "name" : "ZBB_y461_R4-hoxb1a-Cre",
+  "url" : "datasets/ZBB_y461_R4-hoxb1a-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "234",
+  "name" : "ZBB_y559-Cre",
+  "url" : "datasets/ZBB_y559-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "235",
+  "name" : "ZBB_y465-Cre",
+  "url" : "datasets/ZBB_y465-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "236",
+  "name" : "ZBB_y554-Cre",
+  "url" : "datasets/ZBB_y554-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "237",
+  "name" : "ZBB_y466_R2-hoxa2-Cre",
+  "url" : "datasets/ZBB_y466_R2-hoxa2-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "238",
+  "name" : "ZBB_y557-Cre",
+  "url" : "datasets/ZBB_y557-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "239",
+  "name" : "ZBB_y467-Gal4",
+  "url" : "datasets/ZBB_y467-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "240",
+  "name" : "ZBB_y564-Gal4",
+  "url" : "datasets/ZBB_y564-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "241",
+  "name" : "ZBB_y468-Gal4",
+  "url" : "datasets/ZBB_y468-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "242",
+  "name" : "ZBB_y565-Gal4",
+  "url" : "datasets/ZBB_y565-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "243",
+  "name" : "ZBB_y469-Gal4",
+  "url" : "datasets/ZBB_y469-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "244",
+  "name" : "ZBB_y566-Gal4",
+  "url" : "datasets/ZBB_y566-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "245",
+  "name" : "ZBB_y470-Gal4",
+  "url" : "datasets/ZBB_y470-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "246",
+  "name" : "ZBB_y570-Cre",
+  "url" : "datasets/ZBB_y570-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "247",
+  "name" : "ZBB_y471-Gal4",
+  "url" : "datasets/ZBB_y471-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "248",
+  "name" : "ZBB_y571-Cre",
+  "url" : "datasets/ZBB_y571-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "249",
+  "name" : "ZBB_y472-Gal4",
+  "url" : "datasets/ZBB_y472-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "250",
+  "name" : "ZBB_y576-Gal4",
+  "url" : "datasets/ZBB_y576-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "251",
+  "name" : "ZBB_y473-Gal4",
+  "url" : "datasets/ZBB_y473-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "252",
+  "name" : "ZBB_y477-Gal4",
+  "url" : "datasets/ZBB_y477-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "253",
+  "name" : "ZBB_y574-Cre",
+  "url" : "datasets/ZBB_y574-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "254",
+  "name" : "ZBB_y478-Cre",
+  "url" : "datasets/ZBB_y478-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "255",
+  "name" : "ZBB_y575-Gal4",
+  "url" : "datasets/ZBB_y575-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "256",
+  "name" : "ZBB_y479-Cre",
+  "url" : "datasets/ZBB_y479-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "257",
+  "name" : "ZBB_y583_huC-mCardinal",
+  "url" : "datasets/ZBB_y583_huC-mCardinal/",
+  "metadata" : [ ]
+}, {
+  "id" : "258",
+  "name" : "ZBB_y480-Cre",
+  "url" : "datasets/ZBB_y480-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "259",
+  "name" : "ZBB_y481-Cre",
+  "url" : "datasets/ZBB_y481-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "260",
+  "name" : "ZBB_y483-Cre",
+  "url" : "datasets/ZBB_y483-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "261",
+  "name" : "ZBB_y484-Cre",
+  "url" : "datasets/ZBB_y484-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "262",
+  "name" : "ZBB_y485-Cre",
+  "url" : "datasets/ZBB_y485-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "263",
+  "name" : "ZBB_y486-Cre",
+  "url" : "datasets/ZBB_y486-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "264",
+  "name" : "ZBB_y550-Cre",
+  "url" : "datasets/ZBB_y550-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "265",
+  "name" : "ZBB_y553-Cre",
+  "url" : "datasets/ZBB_y553-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "266",
+  "name" : "ZBB_y487-Cre",
+  "url" : "datasets/ZBB_y487-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "267",
+  "name" : "ZBB_y488-Cre",
+  "url" : "datasets/ZBB_y488-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "268",
+  "name" : "ZBB_y489-Cre",
+  "url" : "datasets/ZBB_y489-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "269",
+  "name" : "ZBB_y490-Cre",
+  "url" : "datasets/ZBB_y490-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "270",
+  "name" : "ZBB_y492-Cre",
+  "url" : "datasets/ZBB_y492-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "271",
+  "name" : "ZBB_y493-Cre",
+  "url" : "datasets/ZBB_y493-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "272",
+  "name" : "ZBB_y494-Cre",
+  "url" : "datasets/ZBB_y494-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "273",
+  "name" : "ZBB_y495-Cre",
+  "url" : "datasets/ZBB_y495-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "274",
+  "name" : "ZBB_y511-Gal4",
+  "url" : "datasets/ZBB_y511-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "275",
+  "name" : "ZBB_y512-Gal4",
+  "url" : "datasets/ZBB_y512-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "276",
+  "name" : "ZBB_y514-Gal4",
+  "url" : "datasets/ZBB_y514-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "277",
+  "name" : "ZBB_y515-Gal4",
+  "url" : "datasets/ZBB_y515-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "278",
+  "name" : "ZBB_y558-Cre",
+  "url" : "datasets/ZBB_y558-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "279",
+  "name" : "ZBB_y516_tuba-mCar",
+  "url" : "datasets/ZBB_y516_tuba-mCar/",
+  "metadata" : [ ]
+}, {
+  "id" : "280",
+  "name" : "ZBB_y555-Cre",
+  "url" : "datasets/ZBB_y555-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "281",
+  "name" : "ZBB_y517_huC-nls-mCar",
+  "url" : "datasets/ZBB_y517_huC-nls-mCar/",
+  "metadata" : [ ]
+}, {
+  "id" : "282",
+  "name" : "ZBB_y519-Cre",
+  "url" : "datasets/ZBB_y519-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "283",
+  "name" : "ZBB_y520-Cre",
+  "url" : "datasets/ZBB_y520-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "284",
+  "name" : "ZBB_y521-Cre",
+  "url" : "datasets/ZBB_y521-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "285",
+  "name" : "ZBB_y523-Cre",
+  "url" : "datasets/ZBB_y523-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "286",
+  "name" : "ZBB_y524-Cre",
+  "url" : "datasets/ZBB_y524-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "287",
+  "name" : "ZBB_y526-Cre",
+  "url" : "datasets/ZBB_y526-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "288",
+  "name" : "ZBB_y527-Cre",
+  "url" : "datasets/ZBB_y527-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "289",
+  "name" : "ZBB_y528-Cre",
+  "url" : "datasets/ZBB_y528-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "290",
+  "name" : "ZBB_y532-Gal4",
+  "url" : "datasets/ZBB_y532-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "291",
+  "name" : "ZBB_y533-Gal4",
+  "url" : "datasets/ZBB_y533-Gal4/",
+  "metadata" : [ ]
+}, {
+  "id" : "292",
+  "name" : "ZBB_y556-Cre",
+  "url" : "datasets/ZBB_y556-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "293",
+  "name" : "ZBB_y534_kctd15a-GFP",
+  "url" : "datasets/ZBB_y534_kctd15a-GFP/",
+  "metadata" : [ ]
+}, {
+  "id" : "294",
+  "name" : "ZBB_y541-Cre",
+  "url" : "datasets/ZBB_y541-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "295",
+  "name" : "ZBB_y542-Cre",
+  "url" : "datasets/ZBB_y542-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "296",
+  "name" : "ZBB_y543-Cre",
+  "url" : "datasets/ZBB_y543-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "297",
+  "name" : "ZBB_y544-Cre",
+  "url" : "datasets/ZBB_y544-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "298",
+  "name" : "ZBB_y545-Cre",
+  "url" : "datasets/ZBB_y545-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "299",
+  "name" : "ZBB_y546-Cre",
+  "url" : "datasets/ZBB_y546-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "300",
+  "name" : "ZBB_y547-Cre",
+  "url" : "datasets/ZBB_y547-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "301",
+  "name" : "ZBB_y548-Cre",
+  "url" : "datasets/ZBB_y548-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "302",
+  "name" : "ZBB_y549-Cre",
+  "url" : "datasets/ZBB_y549-Cre/",
+  "metadata" : [ ]
+}, {
+  "id" : "303",
+  "name" : "ZBB_y552-Cre",
+  "url" : "datasets/ZBB_y552-Cre/",
+  "metadata" : [ ]
+},
+{
+  "id" : "304",
+  "name" : "Dscaml1_TRAS_Excitatory_retinorecipient",
+  "url" : "datasets/dscaml1_TRAS_Excitatory_retinorecipient/",
+  "metadata" : [ ]
+},
+{
+  "id" : "305",
+  "name" : "Dscaml1_TRAS_Inhibitory_retinorecipient",
+  "url" : "datasets/dscaml1_TRAS_Inhibitory_retinorecipient/",
+  "metadata" : [ ]
+},
+{
+  "id" : "306",
+  "name" : "WT_TRAS_Excitatory_retinorecipient",
+  "url" : "datasets/WT_TRAS_Excitatory_retinorecipient/",
+  "metadata" : [ ]
+},
+{
+  "id" : "307",
+  "name" : "WT_TRAS_Inhibitory_retinorecipient",
+  "url" : "datasets/WT_TRAS_Inhibitory_retinorecipient/",
+  "metadata" : [ ]
+}]

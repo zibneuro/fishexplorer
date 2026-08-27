@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<title>FishExplorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="../scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fishexplorertutorial.css">
+<style>
+    /* Stackoverflow preview fix, please ignore */
+    .navbar-nav {
+      flex-direction: row;
+    }
+    
+    .nav-link {
+      padding-right: .5rem !important;
+      padding-left: .5rem !important;
+    }
+    
+    /* Fixes dropdown menus placed on the right side */
+    .ml-auto .dropdown-menu {
+      left: auto !important;
+      right: 0px;
+    }
+  </style>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+      <a href="../../" class="navbar-brand"  style=" text-decoration: none;"><span class="logo_fish1">Fish</span><span
+        class="logo_fish2">Explorer</span></a>
+     
+      <div class="collapse navbar-collapse" style="float: right;" id="myNavbar">
+        <ul class="navbar-nav ml-auto">
+          
+        </ul>
+      </div>
+      <ul class="nav justify-content-end">
+
+        <li class="nav-item">
+          <a href="http://www.zib.de/impressum" target="_blank" style="color:#0B2E59" class="nav-link">Imprint</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.engertlab.org/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+              class="logo_engerts3">ENGERT</span> <span class="logo_engerts4">Lab</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.zib.de/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+              class="logo_engerts3">ZIB</span></a>
+        </li>
+      </ul>
+  </nav>
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block sidebar">
+        <div class="sidebar-sticky" style="margin-top: 20%">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="general.html">
+                  Getting started
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-primary" href="tutorial-mece.html">
+                Visualize MECE hierarchy
+              </a>
+            </li>
+            <li class="list-group-item ">
+              <a class="list-group-item list-group-item-action" href="tutorial.html">
+                Visualize 2D regions<span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-3d.html">
+                Visualize 3D regions
+              </a>
+            </li>
+              <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="tutorial-multi.html">
+                      Multi-channel stacks
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="tutorial-uploadmiscs.html">
+                   Upload custom miscs
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="tutorial-uploadlines.html">
+                      Upload custom lines
+                  </a>
+              </li>
+                <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="image-registration.html">
+                    Image registration
+                  </a>
+                </li>
+          </ul>
+
+
+        </div>
+      </nav>
+
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+          style="margin-top: 1%">
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <h1 class="h2">Visualization of the MECE masks </h1>
+              <!-- Image header -->
+
+              <div class="panel-body">
+                <ul class="list-unstyled">
+                  <li>
+                    This section provides a step-by-step introduction to the visualization of the MECE masks of zebrafish defined by
+                    <a href="https://scholar.google.com/citations?user=Itx3xI8AAAAJ&hl=en">Owen Randlet</a>. <a href="https://scholar.google.com/citations?user=Itx3xI8AAAAJ&hl=en">Randlet et al.</a> have created a MECE (Mutually Exclusive and Collectively Exhaustive) segmentation of a 6-days post-fertilization (dpf) zebrafish. This segmentation enables unambiguous
+                    and quantitative anatomical analyses and conforms to standard anatomical nomenclature.
+                    It is often difficult to grasp anatomical knowledge 
+                    due to the complex shapes and their complex spatial relationships. 
+                    But semantic information such as ontologies support anatomical understanding, so have an ontological viewer that shows 
+                    MECE hierarchy and enables flexible and interactive exploration of anatomical structures.
+                    
+                    <br>
+                    To demonstrate the exploration and search functionality in the MECE hierarchy, 
+                    here we demonstrate the <i>Mauthner cells</i> as an example.
+                    <br>
+                    </li>
+                  <hr>
+                  <li> First, restart FishExplorer by hitting the refresh button of the browser. 
+                    This will start the  3D viewer as the default window, as shown below.
+                    <br>
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/tree-main.png" class="img-fluid">
+                    </div>
+                    <hr>
+                  </li>
+                  <li>
+                      
+                    In addition, the “Canonical brain regions” tab (highlighted in red in the image above) is selected by default, 
+                    resulting in the ontological tree shown in the image below. 
+                    Each node in the ontological tree, representing an anatomical region or a group of anatomical regions, 
+                    is displayed as an item of the tree. The down-arrow symbol is displayed in front of a region when the 
+                    hierarchy below the node is expanded; it is denoted by the right-arrow symbol when there is a hierarchy below that is not expanded. 
+                    For example, there is a right arrow symbol in front of <i>hindbrain</i>,
+                    as it is an intermediate node in the ontological tree and its sub-hierarchy is not expanded. 
+                    And there is no symbol in front of the <i>spinal cord</i>, as it is a leaf node in the current ontology.
+                      <div style="text-align:center; margin-top: 10px;">
+                          <img src="images/tree-viewer.png" class="img-fluid">
+                        </div>
+
+                  </li>
+                  <hr>
+                  <li>
+                    Exploration of the ontological tree is possible by clicking on the right- and down-arrows in the front of nodes. 
+                    This unfolds or collapses the sub-hierarchy of that node. As we are interested<i>Mauthner cells</i>, 
+                    we first click on the right arrow symbol in front of the
+                      <i>hindbrain</i> and then on the right-arrow symbol of <i>rhombomere 4</i>.
+                       <div style="text-align:center; margin-top: 10px;">
+                          <img src="images/tree-navigation.png" class="img-fluid">
+                        </div>
+                    <hr>
+                  </li>
+                  <li>
+                      You can also search the <i>Mauthner cells</i> in the search box, as shown in the image below. 
+                      The ontological tree will be automatically unfolded and the nodes matching the search criteria will be highlighted in red.
+                      <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/tree-search.png" class="img-fluid">
+                    </div>
+                    <hr>
+                  </li>
+                  <li>
+                    If you wish to load this anatomical region in the horizontal section or the 3D viewer, 
+                    click the check box in front of the region name as shown below. 
+                    The regions can be removed from the viewer by unchecking the box.
+                      <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/tree-regions.png" class="img-fluid">
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      </main>
+    </div>
+  </div>
+
+</body>
+
+</html>

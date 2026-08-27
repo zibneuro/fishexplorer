@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<title>CircuitExplorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="../scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fishexplorertutorial.css">
+<style>
+  /* Stackoverflow preview fix, please ignore */
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+  }
+
+  /* Fixes dropdown menus placed on the right side */
+  .ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+  }
+</style>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <a href="../../" class="navbar-brand" style=" text-decoration: none;"><span class="logo_fish1">Circuit</span><span
+        class="logo_fish2">Explorer</span></a>
+
+    <div class="collapse navbar-collapse" style="float: right;" id="myNavbar">
+      <ul class="navbar-nav ml-auto">
+
+      </ul>
+    </div>
+    <ul class="nav justify-content-end">
+
+      <li class="nav-item">
+        <a href="http://www.zib.de/impressum" target="_blank" style="color:#0B2E59" class="nav-link">Imprint</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.engertlab.org/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+            class="logo_engerts3">ENGERT</span> <span class="logo_engerts4">Lab</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.zib.de/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+            class="logo_engerts3">ZIB</span></a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block sidebar">
+        <div class="sidebar-sticky" style="margin-top: 20%">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="circuitexplorer-general.html">
+                Getting started
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-primary" href="circuitexplorer-example.html">
+                Elementary case study
+              </a>
+            </li>
+           
+          </ul>
+
+
+        </div>
+      </nav>
+
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+          style="margin-top: 3%">
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+
+              <h1 class="h2">Elementary case study</h1>
+              <!-- Image header -->
+
+              <div class="panel-body">
+
+                <ul class="list-unstyled">
+                  <li>
+                    This tutorial demonstrates a simple query operation and how the corresponding neuron pathways are generated. 
+                    The exact query is to “filter subsets of neurons having their somas in the Forebrain, transit through the Midbrain, and terminate in Hindbrain”.  
+                    <br>
+                    <br>
+                    To do so, please follow the steps described below:
+                    <br>
+                    <hr>  
+                </li>
+                  
+                  <li>
+                    Restart FishExplorer by hitting the refresh button of the browser. 
+                    This will start the 3D viewer as the default window, as shown below. 
+                    Click the “Analysis” menu (encircled red in the image below). 
+                    As a result, the “CircuitExplorer” button (encircled green in the image below), will appear.
+
+                    <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/circuitexplorer-start.png" class="img-fluid">
+                    </div>
+                    <hr>
+                  </li>
+                  <li>
+                    Click the “CircuitExplorer” button. As a result, the CircuitExplorer page, 
+                    as shown in the image below, will appear in the new tab. If you are a first user, 
+                    please read the “Getting started” tutorial in order to know the basics of the panels.  
+                    <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/circuitexplorer-main.png" class="img-fluid">
+                    </div>
+                    <hr>
+                </li>
+                <li>
+                    We started by dragging the intersect operator and the Forebrain region into the filter query component. 
+                    By default, it shows the number of neurons for both the left and right hemisphere (encircled red
+                    in the image below). 
+                    <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/circuitexplorer-elementary-1.png" class="img-fluid">
+                    </div>
+                    <hr>
+                </li>
+                <li>
+                    Next, we dragged the "Midbrain" and applied 
+                    the filter predicate “soma in” to "Forebrain" and “transits” to "Midbrain". 
+                    The pathway browser shows four possible connections 
+                    (encircled green in the image below), will appear.
+                    <ol>
+                        <li>Fl (forebrain left hemisphere) -> Ml (midbrain left hemisphere)</li>
+                        <li>Fl (forebrain left hemisphere) -> Mr (midbrain right hemisphere)</li>
+                        <li>Fr (forebrain right hemisphere) ->Ml (midbrain left hemisphere)</li>
+                        <li>Fr (forebrain right hemisphere) -> Mr (midbrain right hemisphere)</li>
+                    </ol>
+                    <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/circuitexplorer-elementary-2.png" class="img-fluid">
+                    </div>
+                    <hr>
+                </li>
+                <li>
+                    Next, we dragged “Hindbrain” into the 
+                    query component and applied the “terminates in” predicate. 
+                    <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/circuitexplorer-elementary-3.png" class="img-fluid">
+                    </div>
+                    <hr>
+                </li>
+                <li>
+                  Next, we load the anatomical brain regions “Forebrain ” and “Midbrain” into the 3D viewer 
+                  by clicking the checkboxes in the back of the regions in the “Hierarchical query builder” (encircled red in the image below). 
+                  Finally, we load the neurons using “Neuron browser” (encircled green in the image below).
+                    <div style="text-align:center; margin-top: 10px;">
+                        <img src="images/circuitexplorer-elementary-4.png" class="img-fluid">
+                    </div>
+                </li>
+                 
+                </ul>
+
+
+              </div>
+            </div>
+      </main>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

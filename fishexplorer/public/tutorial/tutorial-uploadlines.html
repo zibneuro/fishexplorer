@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<title>FishExplorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="../scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fishexplorertutorial.css">
+<style>
+    /* Stackoverflow preview fix, please ignore */
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .nav-link {
+        padding-right: .5rem !important;
+        padding-left: .5rem !important;
+    }
+
+    /* Fixes dropdown menus placed on the right side */
+    .ml-auto .dropdown-menu {
+        left: auto !important;
+        right: 0px;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+        <a href="../../" class="navbar-brand" style=" text-decoration: none;"><span class="logo_fish1">Fish</span><span
+                class="logo_fish2">Explorer</span></a>
+
+        <div class="collapse navbar-collapse" style="float: right;" id="myNavbar">
+            <ul class="navbar-nav ml-auto">
+
+            </ul>
+        </div>
+        <ul class="nav justify-content-end">
+
+            <li class="nav-item">
+                <a href="http://www.zib.de/impressum" target="_blank" style="color:#0B2E59" class="nav-link">Imprint</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.engertlab.org/" target="_blank"
+                    style="padding: 5px 2px 2px 2px;"><span class="logo_engerts3">ENGERT</span> <span
+                        class="logo_engerts4">Lab</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.zib.de/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+                        class="logo_engerts3">ZIB</span></a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block  sidebar">
+                <div class="sidebar-sticky" style="margin-top: 20%">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-action" href="general.html">
+                                <span data-feather="home"></span>
+                                Getting started
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-action" href="tutorial-mece.html">
+                                <span data-feather="layers"></span>
+                                Visualize MECE hierarchy
+                            </a>
+                        </li>
+                        <li class="list-group-item ">
+                            <a class="list-group-item list-group-item-action" href="tutorial.html">
+                                <span data-feather="shopping-cart"></span>
+                                Visualize 2D regions
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-action" href="tutorial-3d.html">
+                                <span data-feather="users"></span>
+                                Visualize 3D regions
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-action" href="tutorial-multi.html">
+                                Multi-channel stacks
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-action" href="tutorial-uploadmiscs.html">
+                                Upload custom miscs
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-primary" href="tutorial-uploadlines.html">
+                                Upload custom lines<span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="list-group-item list-group-item-action" href="image-registration.html">
+                                <span data-feather="file"></span>
+                                Image registration
+                            </a>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </nav>
+
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+                    style="margin-top: 1%">
+
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <h1 class="h2">Upload lines</h1>
+                            <!-- Image header -->
+
+                            <div class="panel-body">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        This section provides a step-by-step guide to uploading and visualizing custom lines onto the atlas platform. 
+                                        Custom image stacks can be loaded into FishExplorer in different color channels and can be superimposed on the existing 3D image datasets.
+                                        <br>
+                                        To do this, please follow the steps described below:
+                                        <br>
+                                        <br>
+                                        Restart FishExplorer by hitting the refresh button of the browser.
+                                        Then, the sign-in button appears, as shown in the image below. 
+                                        If you are a first time user, please read the <a target="_blank" href="general.html"> general settings</a> tutorial in order to know how to register and login.
+
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/signin.png" class="img-fluid">
+                                        </div>
+                                        <br>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        After signing in, an upload button (here, highlighted in red) will appear on the screen, as shown in the image below.
+                                        <br>
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/upload-main.png" class="img-fluid">
+                                        </div>
+                                        <hr>
+                                    </li>
+                                    <li>
+                                        Click on the “Uploads” button (highlighted in red in the image above) in the top menu bar. 
+                                        This will bring up an upload window as shown in the image below. 
+                                        The upload window consists of a selection list “Upload types”, 
+                                        two uploading buttons (“Lines” and “Custom misc masks”) and a jobs table. 
+                                        The “Upload types” allows the user to filter the list of jobs by “Lines” or “Custom misc masks” in the jobs table. 
+                                        The “Lines” and “Custom misc masks” buttons allow users to upload custom markers and regions respectively. 
+                                        The jobs table displays the list of “Submitted”, “Finished” and “Failed” jobs. 
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/upload-page-lines.png" class="img-fluid" style="max-width: 90%;">
+                                        </div><br>
+                                    </li>
+                                    <li>
+                                    
+                                        Click on the “Load dataset” button at the front of the label “Markers & lines” 
+                                        (highlighted in red in the image above). Then, select a “.zip” compressed tiff file. 
+                                        Users should ensure that the name of the tiff file and zip file are the same. 
+                                        The compressed  “.zip”file  should also be smaller than 500 MB. 
+                                        Currently, we do not support multiple tiffs in a “.zip” file, 
+                                        so users should ensure that there is only one tiff file in a zip file. 
+                                        Once the file has been successfully uploaded, 
+                                        the new job will be listed in a jobs table with the file name, type (“Lines”) 
+                                        and the message “File submitted successfully” (as shown in the image below). 
+                                        Typically, the uploaded file will be processed within 3-5 minutes.
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/upload-successfull-lines.png" class="img-fluid" style="max-width: 90%;">
+                                        </div>
+                                        <br>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        Once the file is successfully processed, the corresponding job will be updated in a jobs table with the status “Finished” 
+                                        and the message “File processed successfully” (highlighted as red in the image below). 
+                                        If the processing fails, the corresponding job will be updated in a jobs table 
+                                        with the status “Failed” along with a custom error message.
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/upload-successfull-lines.png" class="img-fluid" style="max-width: 90%;">
+                                        </div>
+                                        <br>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        The successfully processed markers & lines are added to the “Custom lines” tab (highlighted in green in the image below). 
+                                        The “Custom lines” tab is subtab of the “Marker & lines” tab
+                                        <div style="text-align:center; margin-top: 10px;">
+                                            <img src="images/upload-custom-misc.png" class="img-fluid">
+                                        </div>
+                                        <br>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>

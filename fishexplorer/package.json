@@ -1,0 +1,28 @@
+{
+  "name": "fishexplorer",
+  "private": true,
+  "scripts": {
+    "start": "meteor run --port 3000 --settings _private/settings.json",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.9.6",
+    "babylonjs": "^4.1.0",
+    "bcrypt": "^4.0.1",
+    "bootstrap": "^4.3.1",
+    "d3": "5.7.0",
+    "datatables.net": "^1.10.21",
+    "datatables.net-bs4": "^1.10.21",
+    "dropzone": "^5.7.0",
+    "form-data": "^3.0.0",
+    "golden-layout": "1.5.9",
+    "jquery": "3.4.1",
+    "jquery-mousewheel": "^3.1.13",
+    "jszip": "3.1.4",
+    "jszip-utils": "0.1.0",
+    "meteor-node-stubs": "^0.4.1",
+    "popper.js": "1.15.0"
+  }
+}

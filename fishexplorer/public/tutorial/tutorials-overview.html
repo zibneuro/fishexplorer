@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<title>FishExplorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="../scripts/jquery-1.11.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fishexplorertutorial.css">
+<style>
+    /* Stackoverflow preview fix, please ignore */
+    .navbar-nav {
+      flex-direction: row;
+    }
+    
+    .nav-link {
+      padding-right: .5rem !important;
+      padding-left: .5rem !important;
+    }
+    
+    /* Fixes dropdown menus placed on the right side */
+    .ml-auto .dropdown-menu {
+      left: auto !important;
+      right: 0px;
+    }
+  </style>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+      <a href="../../" class="navbar-brand"  style=" text-decoration: none;"><span class="logo_fish1">Fish</span><span
+        class="logo_fish2">Explorer</span></a>
+     
+      <div class="collapse navbar-collapse" style="float: right;" id="myNavbar">
+        <ul class="navbar-nav ml-auto">
+          
+        </ul>
+      </div>
+      <ul class="nav justify-content-end">
+
+        <li class="nav-item">
+          <a href="http://www.zib.de/impressum" target="_blank" style="color:#0B2E59" class="nav-link">Imprint</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.engertlab.org/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+              class="logo_engerts3">ENGERT</span> <span class="logo_engerts4">Lab</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.zib.de/" target="_blank" style="padding: 5px 2px 2px 2px;"><span
+              class="logo_engerts3">ZIB</span></a>
+        </li>
+      </ul>
+      
+  </nav>
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block sidebar">
+        <div class="sidebar-sticky" style="margin-top: 20%">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+              <a  class="list-group-item list-group-item-action" href="general.html">
+                  Getting started
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-mece.html">
+                Visualize MECE hierarchy
+              </a>
+            </li>
+            <li class="list-group-item ">
+              <a class="list-group-item list-group-item-primary" href="tutorial.html">
+                Visualize 2D regions<span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a class="list-group-item list-group-item-action" href="tutorial-3d.html">
+                Visualize 3D regions
+              </a>
+            </li>
+              <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="tutorial-multi.html">
+                      Multi-channel stacks
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="tutorial-uploadmiscs.html">
+                   Upload custom miscs
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="tutorial-uploadlines.html">
+                      Upload custom lines
+                  </a>
+              </li>
+                <li class="list-group-item">
+                  <a class="list-group-item list-group-item-action" href="image-registration.html">
+                    Image registration
+                  </a>
+                </li>
+          </ul>
+
+
+        </div>
+      </nav>
+
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+          style="margin-top: 1%">
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <h1 class="h2">Visualization of 2D regions</h1>
+              <!-- Image header -->
+
+              <div class="panel-body">
+                <ul class="list-unstyled">
+                  <li> 
+                    This section provides a step-by-step introduction to the visualization of anatomical regions, e.g.,
+                    <i>Caudal hypothalamus</i>, in the horizontal-section viewer. 
+                    FishExplorer superimposes anatomical regions as solid contours. 
+                    In this section we consider the simplest case, namely the display of the reference zebrafish brain stored on the server. 
+                    To load it, please follow the steps described below:
+                  </li>
+                    <br>
+                  <li> When the FishExplorer is started, a 3D viewer appears as the default window, as shown below. 
+                    The corresponding 3D viewer tab is selected, see the highlighted rectangle
+                    <div style="text-align:center; margin-top: 10px;">
+                    <img src="images/mainpage.png" class="img-fluid">
+                    </div>
+                    <hr></li>
+                  <li>Click on the adjacent “horizontal section” tab (highlighted in red in the image above) at the top left. 
+                    This will bring up a 2D viewer like the one shown in the image below.
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/2d-viewer.png" class="img-fluid">
+                    </div><hr>
+                  </li>
+
+                  <li>
+                    Now, imagine that you want to display, for example, the <i>Caudal hypothalamus</i>. 
+                    To do this, search for the anatomical region by typing the first few letters in the white search box (encircled by a red line) in the brain regions viewer on the left. 
+                    Alternatively, you can scroll through the list of regions. 
+                    The list of regions matching your search criteria will appear on the screen as shown below.
+                    <br>
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/search.png" class="img-fluid">
+                    </div><hr>
+                  </li>
+                  <li>Next, select the checkbox after the region name, e.g. <i>Caudal hypothalamus</i> (encircled with
+                    a green line). If the current slice contains the selected region, <i>Caudal hypothalamus</i>, the outlined region will be displayed in the horizontal section viewer. 
+                    The slice depicted is slice 34, as you can see at the bottom of the 2D-viewer. 
+                    However, this slice does not contain the <i>Caudal hypothalamus</i>. Therefore, go to slice 22,
+                    using the slider.
+                    <br>
+                    <div style="text-align:center; margin-top: 10px;">
+                      <img src="images/2d-region.png" class="img-fluid">
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      </main>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
